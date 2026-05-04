@@ -34,15 +34,13 @@ Most scripts have a `main()` block with experiment hyperparameters set directly 
 
 ## Environment
 
-The dependency file was exported from the local conda environment named `statemask`.
+The dependency file was exported from the local conda environment named `Certificate-Guided`.
 
 ```bash
-conda create -n statemask python=3.7.12
-conda activate statemask
+conda create -n Certificate-Guided python=3.7.12
+conda activate Certificate-Guided
 pip install -r requirement.txt
 ```
-
-Note that `requirement.txt` was generated with `pip freeze`, so it includes some local `file://` entries from the original machine, for example `auto-LiRPA @ file:///home/jianhaobai/auto_LiRPA`. On a new machine, replace those entries with installable package sources or recreate the same local paths before running `pip install -r requirement.txt`.
 
 Important packages include PyTorch, Gym/Gymnasium, NumPy, SciPy, Matplotlib, CVXPY, TensorFlow, Stable-Baselines3, and Gurobi Python bindings. CUDA is optional; the scripts use GPU automatically when `torch.cuda.is_available()` is true.
 
@@ -51,24 +49,12 @@ Important packages include PyTorch, Gym/Gymnasium, NumPy, SciPy, Matplotlib, CVX
 Run scripts from the repository root or from the corresponding benchmark directory.
 
 ```bash
-conda activate statemask
+conda activate Certificate-Guided
 
-python cartpole/cartpole_NN_guarantee.py
 python cartpole/cartpole_NN_guided.py
 python pendulum/pendulum_guided.py
 python truck/truck_guided.py
 python 10-room/10room_pac_guided.py
-```
-
-Other available variants follow the same naming pattern:
-
-```bash
-python cartpole/cartpole_TD3.py
-python cartpole/cartpole_TD3_guided.py
-python cartpole/cartpole_SAC.py
-python cartpole/cartpole_SAC_guided.py
-python cartpole/cartpole_ppo.py
-python cartpole/cartpole_ppo_guided.py
 ```
 
 The main experiment settings, including seeds, horizons, PAC sample sizes, disturbance scales, certificate-training epochs, and stopping thresholds, are configured inside each script's `main()` function.
