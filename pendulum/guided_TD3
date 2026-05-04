@@ -1,0 +1,39 @@
+[iter 0000] p_lb=0.000 u=1.000 c=0.0902 n_pre=2118 n_post=100 n_trans=2218 cert_safe=0.000 cert_goal=0.000 cert_fail=1.000 safe_eval=0.000 goal_eval=0.000 fail_eval=1.000 avg_ret=-14.33 iter_time=21.78s total_time=23.29s ln=0.00e+00 lp=7.13e-03 lq=3.93e-04 ld=3.97e-02 lo=9.02e-02 max_vio=3.97e-02 ep=4000 status=epoch-limit-infeasible
+[iter 0001] p_lb=0.000 u=1.000 c=0.0867 n_pre=2067 n_post=100 n_trans=2167 cert_safe=0.000 cert_goal=0.000 cert_fail=1.000 safe_eval=0.000 goal_eval=0.000 fail_eval=1.000 avg_ret=-14.62 iter_time=20.82s total_time=44.11s ln=0.00e+00 lp=6.77e-03 lq=7.56e-04 ld=4.72e-02 lo=8.67e-02 max_vio=4.72e-02 ep=4000 status=epoch-limit-infeasible
+[iter 0002] p_lb=0.000 u=1.000 c=0.0872 n_pre=2281 n_post=100 n_trans=2381 cert_safe=0.000 cert_goal=0.000 cert_fail=1.000 safe_eval=0.000 goal_eval=0.000 fail_eval=1.000 avg_ret=-14.74 iter_time=20.22s total_time=64.33s ln=9.03e-05 lp=8.45e-03 lq=5.83e-04 ld=4.00e-02 lo=8.72e-02 max_vio=4.00e-02 ep=4000 status=epoch-limit-infeasible
+[iter 0003] p_lb=0.000 u=1.000 c=0.0815 n_pre=2727 n_post=100 n_trans=2827 cert_safe=0.000 cert_goal=0.000 cert_fail=1.000 safe_eval=0.000 goal_eval=0.000 fail_eval=1.000 avg_ret=-14.99 iter_time=20.31s total_time=84.64s ln=6.15e-06 lp=8.32e-03 lq=0.00e+00 ld=3.20e-02 lo=8.15e-02 max_vio=3.20e-02 ep=4000 status=epoch-limit-infeasible
+[iter 0004] p_lb=0.000 u=1.000 c=0.0731 n_pre=2951 n_post=100 n_trans=3051 cert_safe=0.000 cert_goal=0.000 cert_fail=1.000 safe_eval=0.000 goal_eval=0.000 fail_eval=1.000 avg_ret=-15.40 iter_time=23.91s total_time=108.55s ln=3.45e-04 lp=3.74e-03 lq=0.00e+00 ld=3.00e-02 lo=7.31e-02 max_vio=3.00e-02 ep=4000 status=epoch-limit-infeasible
+[iter 0005] p_lb=0.000 u=1.000 c=0.0834 n_pre=3209 n_post=100 n_trans=3309 cert_safe=0.000 cert_goal=0.000 cert_fail=1.000 safe_eval=0.000 goal_eval=0.000 fail_eval=1.000 avg_ret=-15.37 iter_time=23.93s total_time=132.48s ln=1.51e-04 lp=1.37e-02 lq=0.00e+00 ld=3.71e-02 lo=8.34e-02 max_vio=3.71e-02 ep=4000 status=epoch-limit-infeasible
+[iter 0006] p_lb=0.000 u=1.000 c=0.0756 n_pre=3398 n_post=100 n_trans=3498 cert_safe=0.000 cert_goal=0.000 cert_fail=1.000 safe_eval=0.000 goal_eval=0.000 fail_eval=1.000 avg_ret=-15.46 iter_time=22.17s total_time=154.65s ln=0.00e+00 lp=5.03e-03 lq=0.00e+00 ld=2.65e-02 lo=7.56e-02 max_vio=2.65e-02 ep=4000 status=epoch-limit-infeasible
+[iter 0007] p_lb=0.000 u=1.000 c=0.0745 n_pre=4300 n_post=100 n_trans=4400 cert_safe=0.000 cert_goal=0.000 cert_fail=1.000 safe_eval=0.010 goal_eval=0.010 fail_eval=0.990 avg_ret=-16.39 iter_time=20.12s total_time=174.77s ln=7.77e-05 lp=4.43e-03 lq=1.35e-03 ld=1.99e-02 lo=7.45e-02 max_vio=1.99e-02 ep=4000 status=epoch-limit-infeasible
+[iter 0008] p_lb=0.000 u=1.000 c=0.0707 n_pre=8226 n_post=98 n_trans=8324 cert_safe=0.020 cert_goal=0.020 cert_fail=0.980 safe_eval=0.790 goal_eval=0.790 fail_eval=0.210 avg_ret=-5.80 iter_time=25.11s total_time=199.88s ln=0.00e+00 lp=5.31e-03 lq=0.00e+00 ld=1.18e-02 lo=7.07e-02 max_vio=1.18e-02 ep=4000 status=epoch-limit-infeasible
+[iter 0009] p_lb=0.000 u=1.000 c=0.0668 n_pre=16771 n_post=38 n_trans=16809 cert_safe=0.620 cert_goal=0.620 cert_fail=0.380 safe_eval=1.000 goal_eval=1.000 fail_eval=0.000 avg_ret=-0.41 iter_time=27.57s total_time=227.45s ln=1.43e-06 lp=1.03e-03 lq=0.00e+00 ld=2.33e-03 lo=6.68e-02 max_vio=2.33e-03 ep=4000 status=epoch-limit-infeasible
+[iter 0010] p_lb=0.990 u=0.010 c=0.0000 n_pre=20100 n_post=0 n_trans=20100 cert_safe=1.000 cert_goal=1.000 cert_fail=0.000 safe_eval=1.000 goal_eval=1.000 fail_eval=0.000 iter_time=16.01s total_time=243.45s ln=0.00e+00 lp=0.00e+00 lq=0.00e+00 ld=0.00e+00 lo=0.00e+00 max_vio=0.00e+00 ep=0
+[stop] iter=10 p_lb=0.990 >= p_min=0.900, epsilon=0.1224
+
+==== FINAL RESULT ====
+Stopped by p_lb? True
+Outer iter: 10
+p_lb: 0.9900
+u_local: 0.0100
+c_bc: 0.0000
+n_pre: 20100
+n_post: 0
+n_trans: 20100
+loss_nonneg: 0.0000e+00
+loss_pre: 0.0000e+00
+loss_post: 0.0000e+00
+loss_dyn: 0.0000e+00
+loss_obj: 0.0000e+00
+max_violation: 0.0000e+00
+epochs_used: 0
+epsilon(N,beta): 0.1224
+safe_eval: 1.0000
+goal_eval: 1.0000
+fail_eval: 0.0000
+avg_return: -0.3642
+total_time_sec: 243.45
+
+==== ROBUSTNESS SWEEP EXAMPLE ====
+Uniform noise: [{'noise_type': 'uniform', 'scale': 0.02, 'safe_rate': 1.0, 'goal_rate': 1.0, 'fail_rate': 0.0, 'avg_return': -0.3185076416998647}, {'noise_type': 'uniform', 'scale': 0.05, 'safe_rate': 1.0, 'goal_rate': 1.0, 'fail_rate': 0.0, 'avg_return': -0.44324006223302087}, {'noise_type': 'uniform', 'scale': 0.08, 'safe_rate': 1.0, 'goal_rate': 1.0, 'fail_rate': 0.0, 'avg_return': -0.7281537776826003}, {'noise_type': 'uniform', 'scale': 0.11, 'safe_rate': 1.0, 'goal_rate': 1.0, 'fail_rate': 0.0, 'avg_return': -1.051936445128874}, {'noise_type': 'uniform', 'scale': 0.14, 'safe_rate': 0.9, 'goal_rate': 0.9, 'fail_rate': 0.1, 'avg_return': -3.4944313173519133}, {'noise_type': 'uniform', 'scale': 0.17, 'safe_rate': 0.7, 'goal_rate': 0.7, 'fail_rate': 0.3, 'avg_return': -8.0015868720941}, {'noise_type': 'uniform', 'scale': 0.2, 'safe_rate': 0.54, 'goal_rate': 0.54, 'fail_rate': 0.46, 'avg_return': -9.88865751149094}]
+Gaussian noise: [{'noise_type': 'gaussian', 'scale': 0.02, 'safe_rate': 1.0, 'goal_rate': 1.0, 'fail_rate': 0.0, 'avg_return': -0.3501339091496535}, {'noise_type': 'gaussian', 'scale': 0.05, 'safe_rate': 1.0, 'goal_rate': 1.0, 'fail_rate': 0.0, 'avg_return': -0.6609079736435534}, {'noise_type': 'gaussian', 'scale': 0.08, 'safe_rate': 0.92, 'goal_rate': 0.92, 'fail_rate': 0.08, 'avg_return': -2.676437871260991}, {'noise_type': 'gaussian', 'scale': 0.11, 'safe_rate': 0.68, 'goal_rate': 0.68, 'fail_rate': 0.32, 'avg_return': -8.42992617755032}, {'noise_type': 'gaussian', 'scale': 0.14, 'safe_rate': 0.18, 'goal_rate': 0.18, 'fail_rate': 0.82, 'avg_return': -14.998451820727489}, {'noise_type': 'gaussian', 'scale': 0.17, 'safe_rate': 0.14, 'goal_rate': 0.14, 'fail_rate': 0.86, 'avg_return': -14.752657680142413}, {'noise_type': 'gaussian', 'scale': 0.2, 'safe_rate': 0.0, 'goal_rate': 0.0, 'fail_rate': 1.0, 'avg_return': -16.01368284144321}]

@@ -1,0 +1,51 @@
+[iter 0000] p_lb=0.000 risk=1.000 c_sum=1.3863 uA=1.000 cA=0.6931 uB=1.000 cB=0.6931 cert_safe=0.000 cert_goal=0.000 cert_fail=1.000 safe_eval=0.000 goal_eval=0.000 fail_eval=1.000 avg_ret=-19.59 iter_time=2.77s total_time=2.77s status=some-infeasible
+[iter 0001] p_lb=0.000 risk=1.000 c_sum=1.3863 uA=1.000 cA=0.6931 uB=1.000 cB=0.6931 cert_safe=0.000 cert_goal=0.000 cert_fail=1.000 safe_eval=0.980 goal_eval=0.980 fail_eval=0.020 avg_ret=41.07 iter_time=8.60s total_time=11.36s status=some-infeasible
+[iter 0002] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.970 cert_goal=0.970 cert_fail=0.030 safe_eval=0.980 goal_eval=0.980 fail_eval=0.020 avg_ret=41.04 iter_time=14.26s total_time=25.63s status=some-infeasible
+[iter 0003] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 npreA=4310 npostA=0 uB=1.000 cB=1.0000 npreB=5134 npostB=0 cert_safe=1.000 cert_goal=1.000 cert_fail=0.000 safe_eval=0.970 goal_eval=0.970 fail_eval=0.030 iter_time=16.16s total_time=41.79s
+[stop] iter=3 p_lb=0.000 >= p_min=0.950, epsilon=0.1224
+
+==== FINAL RESULT ====
+Stopped by p_lb? True
+Outer iter: 3
+p_lb_total: 0.0000
+risk_bound_total: 1.0000
+c_total: 2.0000
+
+---- Certificate A (pre=A, post=X) ----
+u_A: 1.0000
+c_A: 1.0000
+n_pre_A: 4310
+n_post_A: 0
+n_trans_A: 10100
+loss_nonneg_A: inf
+loss_pre_A: inf
+loss_post_A: inf
+loss_dyn_A: inf
+loss_obj_A: 1.0000e+00
+epochs_used_A: 0
+status_A: insufficient-pre-or-post
+
+---- Certificate B (pre=B, post=X) ----
+u_B: 1.0000
+c_B: 1.0000
+n_pre_B: 5134
+n_post_B: 0
+n_trans_B: 10100
+loss_nonneg_B: inf
+loss_pre_B: inf
+loss_post_B: inf
+loss_dyn_B: inf
+loss_obj_B: 1.0000e+00
+epochs_used_B: 0
+status_B: insufficient-pre-or-post
+
+epsilon(N,beta): 0.1224
+safe_eval: 0.9700
+goal_eval: 0.9700
+fail_eval: 0.0300
+avg_return: 40.4330
+total_time_sec: 41.79
+
+==== ROBUSTNESS SWEEP EXAMPLE ====
+Uniform noise: [{'noise_type': 'uniform', 'scale': 0.02, 'safe_rate': 0.96, 'goal_rate': 0.96, 'fail_rate': 0.04, 'avg_return': 39.80811999999999}, {'noise_type': 'uniform', 'scale': 0.08, 'safe_rate': 0.98, 'goal_rate': 0.98, 'fail_rate': 0.02, 'avg_return': 41.04155999999999}, {'noise_type': 'uniform', 'scale': 0.14, 'safe_rate': 0.94, 'goal_rate': 0.94, 'fail_rate': 0.06, 'avg_return': 38.57872}, {'noise_type': 'uniform', 'scale': 0.2, 'safe_rate': 0.96, 'goal_rate': 0.96, 'fail_rate': 0.04, 'avg_return': 39.83649}, {'noise_type': 'uniform', 'scale': 0.26, 'safe_rate': 0.98, 'goal_rate': 0.98, 'fail_rate': 0.02, 'avg_return': 41.045599999999986}, {'noise_type': 'uniform', 'scale': 0.32, 'safe_rate': 0.86, 'goal_rate': 0.86, 'fail_rate': 0.14, 'avg_return': 33.66522}, {'noise_type': 'uniform', 'scale': 0.38, 'safe_rate': 0.86, 'goal_rate': 0.86, 'fail_rate': 0.14, 'avg_return': 33.665189999999996}, {'noise_type': 'uniform', 'scale': 0.4, 'safe_rate': 0.82, 'goal_rate': 0.82, 'fail_rate': 0.18, 'avg_return': 31.206429999999997}]
+Gaussian noise: [{'noise_type': 'gaussian', 'scale': 0.02, 'safe_rate': 1.0, 'goal_rate': 1.0, 'fail_rate': 0.0, 'avg_return': 42.27499999999999}, {'noise_type': 'gaussian', 'scale': 0.08, 'safe_rate': 0.98, 'goal_rate': 0.98, 'fail_rate': 0.02, 'avg_return': 41.04964999999999}, {'noise_type': 'gaussian', 'scale': 0.14, 'safe_rate': 1.0, 'goal_rate': 1.0, 'fail_rate': 0.0, 'avg_return': 42.27499999999999}, {'noise_type': 'gaussian', 'scale': 0.2, 'safe_rate': 0.88, 'goal_rate': 0.88, 'fail_rate': 0.12, 'avg_return': 34.90671}, {'noise_type': 'gaussian', 'scale': 0.26, 'safe_rate': 0.88, 'goal_rate': 0.88, 'fail_rate': 0.12, 'avg_return': 34.91079999999999}, {'noise_type': 'gaussian', 'scale': 0.32, 'safe_rate': 0.8, 'goal_rate': 0.8, 'fail_rate': 0.2, 'avg_return': 30.017679999999995}, {'noise_type': 'gaussian', 'scale': 0.38, 'safe_rate': 0.82, 'goal_rate': 0.82, 'fail_rate': 0.18, 'avg_return': 31.194249999999993}, {'noise_type': 'gaussian', 'scale': 0.4, 'safe_rate': 0.78, 'goal_rate': 0.78, 'fail_rate': 0.22, 'avg_return': 28.792319999999997}]

@@ -1,0 +1,118 @@
+/home/jianhaobai/miniconda3/envs/statemask/bin/python /home/jianhaobai/nips2026/truck/truck_NN.py
+[iter 0000] p_lb=0.000 risk=1.000 c_sum=1.3863 uA=1.000 cA=0.6931 uB=1.000 cB=0.6931 cert_safe=0.000 cert_goal=0.000 cert_fail=1.000 safe_eval=0.000 goal_eval=0.000 fail_eval=1.000 avg_ret=-13.00 iter_time=2.98s total_time=2.98s status=some-infeasible
+[iter 0001] p_lb=0.000 risk=1.000 c_sum=1.3863 uA=1.000 cA=0.6931 uB=1.000 cB=0.6931 cert_safe=0.000 cert_goal=0.000 cert_fail=1.000 safe_eval=0.950 goal_eval=0.950 fail_eval=0.050 avg_ret=39.27 iter_time=4.95s total_time=7.93s status=some-infeasible
+[iter 0002] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.950 cert_goal=0.950 cert_fail=0.050 safe_eval=0.980 goal_eval=0.980 fail_eval=0.020 avg_ret=41.06 iter_time=6.60s total_time=14.53s status=some-infeasible
+[iter 0003] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.860 cert_goal=0.860 cert_fail=0.140 safe_eval=0.870 goal_eval=0.870 fail_eval=0.130 avg_ret=35.14 iter_time=6.25s total_time=20.78s status=some-infeasible
+[iter 0004] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.860 cert_goal=0.860 cert_fail=0.140 safe_eval=0.820 goal_eval=0.820 fail_eval=0.180 avg_ret=32.95 iter_time=6.42s total_time=27.19s status=some-infeasible
+[iter 0005] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.810 cert_goal=0.810 cert_fail=0.190 safe_eval=0.810 goal_eval=0.810 fail_eval=0.190 avg_ret=32.34 iter_time=6.31s total_time=33.51s status=some-infeasible
+[iter 0006] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.790 cert_goal=0.790 cert_fail=0.210 safe_eval=0.740 goal_eval=0.740 fail_eval=0.260 avg_ret=28.87 iter_time=6.18s total_time=39.69s status=some-infeasible
+[iter 0007] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.800 cert_goal=0.800 cert_fail=0.200 safe_eval=0.970 goal_eval=0.970 fail_eval=0.030 avg_ret=40.50 iter_time=6.31s total_time=46.01s status=some-infeasible
+[iter 0008] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.920 cert_goal=0.920 cert_fail=0.080 safe_eval=0.800 goal_eval=0.800 fail_eval=0.200 avg_ret=31.34 iter_time=6.25s total_time=52.26s status=some-infeasible
+[iter 0009] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.690 cert_goal=0.690 cert_fail=0.310 safe_eval=0.350 goal_eval=0.350 fail_eval=0.650 avg_ret=4.99 iter_time=5.29s total_time=57.56s status=some-infeasible
+[iter 0010] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.260 cert_goal=0.260 cert_fail=0.740 safe_eval=0.330 goal_eval=0.330 fail_eval=0.670 avg_ret=2.54 iter_time=3.86s total_time=61.42s status=some-infeasible
+[iter 0011] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.290 cert_goal=0.290 cert_fail=0.710 safe_eval=0.820 goal_eval=0.820 fail_eval=0.180 avg_ret=32.55 iter_time=4.97s total_time=66.39s status=some-infeasible
+[iter 0012] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.860 cert_goal=0.860 cert_fail=0.140 safe_eval=0.950 goal_eval=0.950 fail_eval=0.050 avg_ret=39.20 iter_time=6.37s total_time=72.76s status=some-infeasible
+[iter 0013] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.960 cert_goal=0.960 cert_fail=0.040 safe_eval=0.840 goal_eval=0.840 fail_eval=0.160 avg_ret=33.70 iter_time=6.46s total_time=79.23s status=some-infeasible
+[iter 0014] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.780 cert_goal=0.780 cert_fail=0.220 safe_eval=0.930 goal_eval=0.930 fail_eval=0.070 avg_ret=38.11 iter_time=6.36s total_time=85.59s status=some-infeasible
+[iter 0015] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.970 cert_goal=0.970 cert_fail=0.030 safe_eval=0.950 goal_eval=0.950 fail_eval=0.050 avg_ret=39.28 iter_time=6.68s total_time=92.28s status=some-infeasible
+[iter 0016] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.990 cert_goal=0.990 cert_fail=0.010 safe_eval=0.940 goal_eval=0.940 fail_eval=0.060 avg_ret=38.66 iter_time=6.61s total_time=98.89s status=some-infeasible
+[iter 0017] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.980 cert_goal=0.980 cert_fail=0.020 safe_eval=0.940 goal_eval=0.940 fail_eval=0.060 avg_ret=38.66 iter_time=6.60s total_time=105.49s status=some-infeasible
+[iter 0018] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.960 cert_goal=0.960 cert_fail=0.040 safe_eval=0.930 goal_eval=0.930 fail_eval=0.070 avg_ret=38.04 iter_time=6.56s total_time=112.06s status=some-infeasible
+[iter 0019] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.960 cert_goal=0.960 cert_fail=0.040 safe_eval=0.950 goal_eval=0.950 fail_eval=0.050 avg_ret=39.24 iter_time=6.54s total_time=118.60s status=some-infeasible
+[iter 0020] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.960 cert_goal=0.960 cert_fail=0.040 safe_eval=0.960 goal_eval=0.960 fail_eval=0.040 avg_ret=39.87 iter_time=6.59s total_time=125.20s status=some-infeasible
+[iter 0021] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.980 cert_goal=0.980 cert_fail=0.020 safe_eval=0.990 goal_eval=0.990 fail_eval=0.010 avg_ret=41.67 iter_time=6.68s total_time=131.89s status=some-infeasible
+[iter 0022] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.990 cert_goal=0.990 cert_fail=0.010 safe_eval=0.980 goal_eval=0.980 fail_eval=0.020 avg_ret=41.07 iter_time=6.73s total_time=138.62s status=some-infeasible
+[iter 0023] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.960 cert_goal=0.960 cert_fail=0.040 safe_eval=0.970 goal_eval=0.970 fail_eval=0.030 avg_ret=40.50 iter_time=6.63s total_time=145.24s status=some-infeasible
+[iter 0024] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.920 cert_goal=0.920 cert_fail=0.080 safe_eval=0.950 goal_eval=0.950 fail_eval=0.050 avg_ret=39.34 iter_time=6.50s total_time=151.75s status=some-infeasible
+[iter 0025] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.990 cert_goal=0.990 cert_fail=0.010 safe_eval=0.940 goal_eval=0.940 fail_eval=0.060 avg_ret=38.64 iter_time=6.65s total_time=158.40s status=some-infeasible
+[iter 0026] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.960 cert_goal=0.960 cert_fail=0.040 safe_eval=0.990 goal_eval=0.990 fail_eval=0.010 avg_ret=41.66 iter_time=6.67s total_time=165.08s status=some-infeasible
+[iter 0027] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.990 cert_goal=0.990 cert_fail=0.010 safe_eval=0.950 goal_eval=0.950 fail_eval=0.050 avg_ret=39.26 iter_time=6.73s total_time=171.81s status=some-infeasible
+[iter 0028] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.970 cert_goal=0.970 cert_fail=0.030 safe_eval=0.990 goal_eval=0.990 fail_eval=0.010 avg_ret=41.66 iter_time=6.72s total_time=178.54s status=some-infeasible
+[iter 0029] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.980 cert_goal=0.980 cert_fail=0.020 safe_eval=0.910 goal_eval=0.910 fail_eval=0.090 avg_ret=36.92 iter_time=6.48s total_time=185.01s status=some-infeasible
+[iter 0030] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.890 cert_goal=0.890 cert_fail=0.110 safe_eval=0.880 goal_eval=0.880 fail_eval=0.120 avg_ret=35.57 iter_time=6.49s total_time=191.51s status=some-infeasible
+[iter 0031] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.820 cert_goal=0.820 cert_fail=0.180 safe_eval=0.980 goal_eval=0.980 fail_eval=0.020 avg_ret=41.07 iter_time=6.48s total_time=197.99s status=some-infeasible
+[iter 0032] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.990 cert_goal=0.990 cert_fail=0.010 safe_eval=0.970 goal_eval=0.970 fail_eval=0.030 avg_ret=40.45 iter_time=6.55s total_time=204.54s status=some-infeasible
+[iter 0033] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.920 cert_goal=0.920 cert_fail=0.080 safe_eval=0.860 goal_eval=0.860 fail_eval=0.140 avg_ret=34.52 iter_time=6.24s total_time=210.78s status=some-infeasible
+[iter 0034] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.910 cert_goal=0.910 cert_fail=0.090 safe_eval=0.950 goal_eval=0.950 fail_eval=0.050 avg_ret=39.36 iter_time=6.43s total_time=217.21s status=some-infeasible
+[iter 0035] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.970 cert_goal=0.970 cert_fail=0.030 safe_eval=0.910 goal_eval=0.910 fail_eval=0.090 avg_ret=37.09 iter_time=6.49s total_time=223.71s status=some-infeasible
+[iter 0036] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.860 cert_goal=0.860 cert_fail=0.140 safe_eval=0.970 goal_eval=0.970 fail_eval=0.030 avg_ret=40.48 iter_time=6.43s total_time=230.14s status=some-infeasible
+[iter 0037] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.980 cert_goal=0.980 cert_fail=0.020 safe_eval=0.990 goal_eval=0.990 fail_eval=0.010 avg_ret=41.67 iter_time=6.68s total_time=236.82s status=some-infeasible
+[iter 0038] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.970 cert_goal=0.970 cert_fail=0.030 safe_eval=0.980 goal_eval=0.980 fail_eval=0.020 avg_ret=41.04 iter_time=6.70s total_time=243.52s status=some-infeasible
+[iter 0039] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.970 cert_goal=0.970 cert_fail=0.030 safe_eval=0.940 goal_eval=0.940 fail_eval=0.060 avg_ret=38.64 iter_time=6.47s total_time=249.99s status=some-infeasible
+[iter 0040] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.990 cert_goal=0.990 cert_fail=0.010 safe_eval=0.880 goal_eval=0.880 fail_eval=0.120 avg_ret=36.15 iter_time=6.53s total_time=256.53s status=some-infeasible
+[iter 0041] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.800 cert_goal=0.800 cert_fail=0.200 safe_eval=0.790 goal_eval=0.790 fail_eval=0.210 avg_ret=31.43 iter_time=6.27s total_time=262.81s status=some-infeasible
+[iter 0042] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.810 cert_goal=0.810 cert_fail=0.190 safe_eval=0.960 goal_eval=0.960 fail_eval=0.040 avg_ret=39.88 iter_time=6.41s total_time=269.23s status=some-infeasible
+[iter 0043] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.950 cert_goal=0.950 cert_fail=0.050 safe_eval=0.970 goal_eval=0.970 fail_eval=0.030 avg_ret=40.45 iter_time=6.74s total_time=275.98s status=some-infeasible
+[iter 0044] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.980 cert_goal=0.980 cert_fail=0.020 safe_eval=0.960 goal_eval=0.960 fail_eval=0.040 avg_ret=39.88 iter_time=6.77s total_time=282.75s status=some-infeasible
+[iter 0045] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.920 cert_goal=0.920 cert_fail=0.080 safe_eval=0.950 goal_eval=0.950 fail_eval=0.050 avg_ret=39.27 iter_time=6.63s total_time=289.38s status=some-infeasible
+[iter 0046] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.990 cert_goal=0.990 cert_fail=0.010 safe_eval=0.940 goal_eval=0.940 fail_eval=0.060 avg_ret=38.70 iter_time=6.66s total_time=296.05s status=some-infeasible
+[iter 0047] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.940 cert_goal=0.940 cert_fail=0.060 safe_eval=0.930 goal_eval=0.930 fail_eval=0.070 avg_ret=38.13 iter_time=6.54s total_time=302.59s status=some-infeasible
+[iter 0048] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.890 cert_goal=0.890 cert_fail=0.110 safe_eval=0.950 goal_eval=0.950 fail_eval=0.050 avg_ret=39.29 iter_time=6.55s total_time=309.14s status=some-infeasible
+[iter 0049] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.940 cert_goal=0.940 cert_fail=0.060 safe_eval=0.990 goal_eval=0.990 fail_eval=0.010 avg_ret=41.67 iter_time=6.65s total_time=315.79s status=some-infeasible
+[iter 0050] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.970 cert_goal=0.970 cert_fail=0.030 safe_eval=0.820 goal_eval=0.820 fail_eval=0.180 avg_ret=31.21 iter_time=6.42s total_time=322.22s status=some-infeasible
+[iter 0051] p_lb=0.000 risk=1.000 c_sum=1.3863 uA=1.000 cA=0.6931 uB=1.000 cB=0.6931 cert_safe=0.820 cert_goal=0.820 cert_fail=0.180 safe_eval=0.980 goal_eval=0.980 fail_eval=0.020 avg_ret=41.08 iter_time=6.38s total_time=328.60s status=some-infeasible
+[iter 0052] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.960 cert_goal=0.960 cert_fail=0.040 safe_eval=0.910 goal_eval=0.910 fail_eval=0.090 avg_ret=36.99 iter_time=6.71s total_time=335.32s status=some-infeasible
+[iter 0053] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.900 cert_goal=0.900 cert_fail=0.100 safe_eval=0.950 goal_eval=0.950 fail_eval=0.050 avg_ret=39.25 iter_time=6.71s total_time=342.03s status=some-infeasible
+[iter 0054] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.970 cert_goal=0.970 cert_fail=0.030 safe_eval=0.980 goal_eval=0.980 fail_eval=0.020 avg_ret=41.08 iter_time=6.85s total_time=348.89s status=some-infeasible
+[iter 0055] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.970 cert_goal=0.970 cert_fail=0.030 safe_eval=0.960 goal_eval=0.960 fail_eval=0.040 avg_ret=39.91 iter_time=6.68s total_time=355.57s status=some-infeasible
+[iter 0056] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.940 cert_goal=0.940 cert_fail=0.060 safe_eval=0.970 goal_eval=0.970 fail_eval=0.030 avg_ret=40.46 iter_time=6.68s total_time=362.25s status=some-infeasible
+[iter 0057] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.960 cert_goal=0.960 cert_fail=0.040 safe_eval=0.950 goal_eval=0.950 fail_eval=0.050 avg_ret=39.28 iter_time=6.69s total_time=368.95s status=some-infeasible
+[iter 0058] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.920 cert_goal=0.920 cert_fail=0.080 safe_eval=0.960 goal_eval=0.960 fail_eval=0.040 avg_ret=39.87 iter_time=6.58s total_time=375.53s status=some-infeasible
+[iter 0059] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.950 cert_goal=0.950 cert_fail=0.050 safe_eval=0.990 goal_eval=0.990 fail_eval=0.010 avg_ret=41.66 iter_time=6.70s total_time=382.24s status=some-infeasible
+[iter 0060] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.930 cert_goal=0.930 cert_fail=0.070 safe_eval=0.460 goal_eval=0.460 fail_eval=0.540 avg_ret=16.18 iter_time=6.17s total_time=388.42s status=some-infeasible
+[iter 0061] p_lb=0.000 risk=1.000 c_sum=1.3863 uA=1.000 cA=0.6931 uB=1.000 cB=0.6931 cert_safe=0.430 cert_goal=0.430 cert_fail=0.570 safe_eval=0.980 goal_eval=0.980 fail_eval=0.020 avg_ret=41.06 iter_time=6.46s total_time=394.88s status=some-infeasible
+[iter 0062] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.980 cert_goal=0.980 cert_fail=0.020 safe_eval=0.970 goal_eval=0.970 fail_eval=0.030 avg_ret=40.43 iter_time=6.75s total_time=401.63s status=some-infeasible
+[iter 0063] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.950 cert_goal=0.950 cert_fail=0.050 safe_eval=1.000 goal_eval=1.000 fail_eval=0.000 avg_ret=42.27 iter_time=6.94s total_time=408.58s status=some-infeasible
+[iter 0064] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.980 cert_goal=0.980 cert_fail=0.020 safe_eval=0.950 goal_eval=0.950 fail_eval=0.050 avg_ret=39.33 iter_time=6.87s total_time=415.45s status=some-infeasible
+[iter 0065] p_lb=0.000 risk=1.000 c_sum=1.3863 uA=1.000 cA=0.6931 uB=1.000 cB=0.6931 cert_safe=0.930 cert_goal=0.930 cert_fail=0.070 safe_eval=0.950 goal_eval=0.950 fail_eval=0.050 avg_ret=39.27 iter_time=6.83s total_time=422.28s status=some-infeasible
+[iter 0066] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 uB=1.000 cB=1.0000 cert_safe=0.990 cert_goal=0.990 cert_fail=0.010 safe_eval=0.960 goal_eval=0.960 fail_eval=0.040 avg_ret=39.83 iter_time=6.68s total_time=428.97s status=some-infeasible
+[iter 0067] p_lb=0.000 risk=1.000 c_sum=2.0000 uA=1.000 cA=1.0000 npreA=3328 npostA=0 uB=1.000 cB=1.0000 npreB=3317 npostB=0 cert_safe=1.000 cert_goal=1.000 cert_fail=0.000 safe_eval=0.975 goal_eval=0.975 fail_eval=0.025 iter_time=7.69s total_time=436.66s
+[stop] iter=67 p_lb=0.000 >= p_min=0.950, epsilon=0.1224
+
+==== FINAL RESULT ====
+Stopped by p_lb? True
+Outer iter: 67
+p_lb_total: 0.0000
+risk_bound_total: 1.0000
+c_total: 2.0000
+
+---- Certificate A (pre=A, post=X) ----
+u_A: 1.0000
+c_A: 1.0000
+n_pre_A: 3328
+n_post_A: 0
+n_trans_A: 10100
+loss_nonneg_A: inf
+loss_pre_A: inf
+loss_post_A: inf
+loss_dyn_A: inf
+loss_obj_A: 1.0000e+00
+epochs_used_A: 0
+status_A: insufficient-pre-or-post
+
+---- Certificate B (pre=B, post=X) ----
+u_B: 1.0000
+c_B: 1.0000
+n_pre_B: 3317
+n_post_B: 0
+n_trans_B: 10100
+loss_nonneg_B: inf
+loss_pre_B: inf
+loss_post_B: inf
+loss_dyn_B: inf
+loss_obj_B: 1.0000e+00
+epochs_used_B: 0
+status_B: insufficient-pre-or-post
+
+epsilon(N,beta): 0.1224
+safe_eval: 0.9750
+goal_eval: 0.9750
+fail_eval: 0.0250
+avg_return: 40.7505
+total_time_sec: 436.66
+
+==== ROBUSTNESS SWEEP EXAMPLE ====
+Uniform noise: [{'noise_type': 'uniform', 'scale': 0.02, 'safe_rate': 0.96, 'goal_rate': 0.96, 'fail_rate': 0.04, 'avg_return': 39.83669}, {'noise_type': 'uniform', 'scale': 0.08, 'safe_rate': 0.9, 'goal_rate': 0.9, 'fail_rate': 0.1, 'avg_return': 36.41904999999999}, {'noise_type': 'uniform', 'scale': 0.14, 'safe_rate': 0.6, 'goal_rate': 0.6, 'fail_rate': 0.4, 'avg_return': 22.556879999999992}, {'noise_type': 'uniform', 'scale': 0.2, 'safe_rate': 0.56, 'goal_rate': 0.56, 'fail_rate': 0.44, 'avg_return': 20.555719999999994}, {'noise_type': 'uniform', 'scale': 0.26, 'safe_rate': 0.38, 'goal_rate': 0.38, 'fail_rate': 0.62, 'avg_return': 10.82685}, {'noise_type': 'uniform', 'scale': 0.32, 'safe_rate': 0.4, 'goal_rate': 0.4, 'fail_rate': 0.6, 'avg_return': 11.021069999999998}, {'noise_type': 'uniform', 'scale': 0.38, 'safe_rate': 0.58, 'goal_rate': 0.58, 'fail_rate': 0.42, 'avg_return': 20.332509999999996}, {'noise_type': 'uniform', 'scale': 0.4, 'safe_rate': 0.46, 'goal_rate': 0.46, 'fail_rate': 0.54, 'avg_return': 15.165359999999996}]
+Gaussian noise: [{'noise_type': 'gaussian', 'scale': 0.02, 'safe_rate': 0.98, 'goal_rate': 0.98, 'fail_rate': 0.02, 'avg_return': 41.065949999999994}, {'noise_type': 'gaussian', 'scale': 0.08, 'safe_rate': 0.78, 'goal_rate': 0.78, 'fail_rate': 0.22, 'avg_return': 30.974159999999998}, {'noise_type': 'gaussian', 'scale': 0.14, 'safe_rate': 0.34, 'goal_rate': 0.34, 'fail_rate': 0.66, 'avg_return': 9.446919999999997}, {'noise_type': 'gaussian', 'scale': 0.2, 'safe_rate': 0.6, 'goal_rate': 0.6, 'fail_rate': 0.4, 'avg_return': 22.200889999999994}, {'noise_type': 'gaussian', 'scale': 0.26, 'safe_rate': 0.34, 'goal_rate': 0.34, 'fail_rate': 0.66, 'avg_return': 8.670709999999998}, {'noise_type': 'gaussian', 'scale': 0.32, 'safe_rate': 0.4, 'goal_rate': 0.4, 'fail_rate': 0.6, 'avg_return': 11.449399999999995}, {'noise_type': 'gaussian', 'scale': 0.38, 'safe_rate': 0.48, 'goal_rate': 0.48, 'fail_rate': 0.52, 'avg_return': 16.488339999999997}, {'noise_type': 'gaussian', 'scale': 0.4, 'safe_rate': 0.6, 'goal_rate': 0.6, 'fail_rate': 0.4, 'avg_return': 22.1679}]
+
+Process finished with exit code 0

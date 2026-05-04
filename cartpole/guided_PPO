@@ -1,0 +1,32 @@
+[iter 0000] p_lb=0.000 u=1.000 c=0.4524 n_pre=28774 n_post=197 n_trans=28971 cert_safe=0.015 cert_goal=0.015 cert_fail=0.985 safe_eval=0.010 goal_eval=0.010 fail_eval=0.990 avg_ret=183.47 iter_time=76.74s total_time=77.52s ln=0.00e+00 lp=7.96e-03 lq=1.80e-04 ld=2.59e-03 lo=4.52e-01 max_vio=7.96e-03 ep=10000 status=epoch-limit-infeasible
+[iter 0001] p_lb=0.000 u=1.000 c=0.3967 n_pre=35340 n_post=200 n_trans=35540 cert_safe=0.000 cert_goal=0.000 cert_fail=1.000 safe_eval=0.440 goal_eval=0.440 fail_eval=0.560 avg_ret=437.88 iter_time=97.05s total_time=174.57s ln=2.21e-03 lp=7.66e-03 lq=2.40e-04 ld=4.54e-04 lo=3.97e-01 max_vio=7.66e-03 ep=10000 status=epoch-limit-infeasible
+[iter 0002] p_lb=0.000 u=1.000 c=0.0000 n_pre=85950 n_post=134 n_trans=86084 cert_safe=0.330 cert_goal=0.330 cert_fail=0.670 safe_eval=1.000 goal_eval=1.000 fail_eval=0.000 avg_ret=500.00 iter_time=193.96s total_time=368.54s ln=7.47e-03 lp=1.92e-03 lq=2.14e-03 ld=2.03e-03 lo=4.56e-05 max_vio=7.47e-03 ep=10000 status=epoch-limit-infeasible
+[iter 0003] p_lb=0.994 u=0.006 c=0.0000 n_pre=100200 n_post=0 n_trans=100200 cert_safe=1.000 cert_goal=1.000 cert_fail=0.000 safe_eval=1.000 goal_eval=1.000 fail_eval=0.000 iter_time=222.17s total_time=590.71s ln=0.00e+00 lp=9.82e-04 lq=0.00e+00 ld=0.00e+00 lo=9.99e-06 max_vio=9.82e-04 ep=8492
+[stop] iter=3 p_lb=0.994 >= p_min=0.950, epsilon=0.0865
+
+==== FINAL RESULT ====
+Stopped by p_lb? True
+Outer iter: 3
+p_lb: 0.9940
+u_local: 0.0060
+c_bc: 0.0000
+n_pre: 100200
+n_post: 0
+n_trans: 100200
+loss_nonneg: 0.0000e+00
+loss_pre: 9.8153e-04
+loss_post: 0.0000e+00
+loss_dyn: 0.0000e+00
+loss_obj: 9.9942e-06
+max_violation: 9.8153e-04
+epochs_used: 8492
+epsilon(N,beta): 0.0865
+safe_eval: 1.0000
+goal_eval: 1.0000
+fail_eval: 0.0000
+avg_return: 500.0000
+total_time_sec: 590.71
+
+==== ROBUSTNESS SWEEP EXAMPLE ====
+Uniform noise: [{'noise_type': 'uniform', 'scale': 0.02, 'safe_rate': 1.0, 'goal_rate': 1.0, 'fail_rate': 0.0, 'avg_return': 500.0}, {'noise_type': 'uniform', 'scale': 0.05, 'safe_rate': 1.0, 'goal_rate': 1.0, 'fail_rate': 0.0, 'avg_return': 500.0}, {'noise_type': 'uniform', 'scale': 0.08, 'safe_rate': 1.0, 'goal_rate': 1.0, 'fail_rate': 0.0, 'avg_return': 500.0}, {'noise_type': 'uniform', 'scale': 0.11, 'safe_rate': 1.0, 'goal_rate': 1.0, 'fail_rate': 0.0, 'avg_return': 500.0}, {'noise_type': 'uniform', 'scale': 0.14, 'safe_rate': 1.0, 'goal_rate': 1.0, 'fail_rate': 0.0, 'avg_return': 500.0}, {'noise_type': 'uniform', 'scale': 0.17, 'safe_rate': 0.96, 'goal_rate': 0.96, 'fail_rate': 0.04, 'avg_return': 491.5}, {'noise_type': 'uniform', 'scale': 0.2, 'safe_rate': 0.94, 'goal_rate': 0.94, 'fail_rate': 0.06, 'avg_return': 484.74}]
+Gaussian noise: [{'noise_type': 'gaussian', 'scale': 0.02, 'safe_rate': 1.0, 'goal_rate': 1.0, 'fail_rate': 0.0, 'avg_return': 500.0}, {'noise_type': 'gaussian', 'scale': 0.05, 'safe_rate': 1.0, 'goal_rate': 1.0, 'fail_rate': 0.0, 'avg_return': 500.0}, {'noise_type': 'gaussian', 'scale': 0.08, 'safe_rate': 0.96, 'goal_rate': 0.96, 'fail_rate': 0.04, 'avg_return': 490.22}, {'noise_type': 'gaussian', 'scale': 0.11, 'safe_rate': 0.94, 'goal_rate': 0.94, 'fail_rate': 0.06, 'avg_return': 480.12}, {'noise_type': 'gaussian', 'scale': 0.14, 'safe_rate': 0.72, 'goal_rate': 0.72, 'fail_rate': 0.28, 'avg_return': 456.82}, {'noise_type': 'gaussian', 'scale': 0.17, 'safe_rate': 0.46, 'goal_rate': 0.46, 'fail_rate': 0.54, 'avg_return': 371.74}, {'noise_type': 'gaussian', 'scale': 0.2, 'safe_rate': 0.1, 'goal_rate': 0.1, 'fail_rate': 0.9, 'avg_return': 273.48}]

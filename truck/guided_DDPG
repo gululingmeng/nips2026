@@ -1,0 +1,53 @@
+/home/jianhaobai/miniconda3/envs/statemask/bin/python /home/jianhaobai/nips2026/truck/truck_guided.py
+[iter 0000] p_lb=0.000 risk=1.000 c_sum=0.0018 uA=1.000 cA=0.0007 uB=1.000 cB=0.0011 cert_safe=0.000 cert_goal=0.000 cert_fail=1.000 safe_eval=0.430 goal_eval=0.430 fail_eval=0.570 avg_ret=13.17 iter_time=93.11s total_time=93.11s status=some-infeasible
+[iter 0001] p_lb=0.000 risk=1.000 c_sum=0.0012 uA=1.000 cA=0.0005 uB=0.067 cB=0.0007 cert_safe=0.380 cert_goal=0.380 cert_fail=0.620 safe_eval=0.960 goal_eval=0.960 fail_eval=0.040 avg_ret=39.86 iter_time=78.79s total_time=171.90s status=some-infeasible
+[iter 0002] p_lb=0.901 risk=0.099 c_sum=0.0010 uA=0.050 cA=0.0005 npreA=6597 npostA=0 uB=0.049 cB=0.0005 npreB=7399 npostB=0 cert_safe=0.933 cert_goal=0.933 cert_fail=0.067 safe_eval=0.910 goal_eval=0.910 fail_eval=0.090 avg_ret=36.92 iter_time=70.23s total_time=242.13s statusA=constraints-satisfied-post-empty statusB=constraints-satisfied-post-empty status=both-feasible
+[stop] iter=2 p_lb=0.901 >= p_min=0.900, epsilon=0.0999
+
+==== FINAL RESULT ====
+Stopped by p_lb? True
+Outer iter: 2
+p_lb_total: 0.9006
+risk_bound_total: 0.0994
+c_total: 0.0010
+
+---- Certificate A (pre=A, post=X) ----
+u_A: 0.0500
+c_A: 0.0005
+n_pre_A: 6597
+n_post_A: 0
+n_trans_A: 14066
+loss_nonneg_A: 1.5977e-04
+loss_pre_A: 0.0000e+00
+loss_post_A: 0.0000e+00
+loss_dyn_A: 2.2967e-08
+loss_obj_A: 4.9932e-04
+epochs_used_A: 8000
+status_A: constraints-satisfied-post-empty
+
+---- Certificate B (pre=B, post=X) ----
+u_B: 0.0494
+c_B: 0.0005
+n_pre_B: 7399
+n_post_B: 0
+n_trans_B: 14066
+loss_nonneg_B: 0.0000e+00
+loss_pre_B: 0.0000e+00
+loss_post_B: 0.0000e+00
+loss_dyn_B: 0.0000e+00
+loss_obj_B: 4.9299e-04
+epochs_used_B: 8000
+status_B: constraints-satisfied-post-empty
+
+epsilon(N,beta): 0.0999
+safe_eval: 0.9100
+goal_eval: 0.9100
+fail_eval: 0.0900
+avg_return: 36.9205
+total_time_sec: 242.13
+
+==== ROBUSTNESS SWEEP EXAMPLE ====
+Uniform noise: [{'noise_type': 'uniform', 'scale': 0.02, 'safe_rate': 0.98, 'goal_rate': 0.98, 'fail_rate': 0.02, 'avg_return': 41.070049999999995}, {'noise_type': 'uniform', 'scale': 0.08, 'safe_rate': 0.98, 'goal_rate': 0.98, 'fail_rate': 0.02, 'avg_return': 41.09902999999999}, {'noise_type': 'uniform', 'scale': 0.14, 'safe_rate': 0.94, 'goal_rate': 0.94, 'fail_rate': 0.06, 'avg_return': 38.66877999999999}, {'noise_type': 'uniform', 'scale': 0.2, 'safe_rate': 0.94, 'goal_rate': 0.94, 'fail_rate': 0.06, 'avg_return': 38.67665999999999}, {'noise_type': 'uniform', 'scale': 0.26, 'safe_rate': 0.98, 'goal_rate': 0.98, 'fail_rate': 0.02, 'avg_return': 41.10739999999999}, {'noise_type': 'uniform', 'scale': 0.32, 'safe_rate': 0.94, 'goal_rate': 0.94, 'fail_rate': 0.06, 'avg_return': 38.664829999999995}, {'noise_type': 'uniform', 'scale': 0.38, 'safe_rate': 0.96, 'goal_rate': 0.96, 'fail_rate': 0.04, 'avg_return': 39.91061999999999}, {'noise_type': 'uniform', 'scale': 0.4, 'safe_rate': 0.96, 'goal_rate': 0.96, 'fail_rate': 0.04, 'avg_return': 39.94823999999999}]
+Gaussian noise: [{'noise_type': 'gaussian', 'scale': 0.02, 'safe_rate': 0.98, 'goal_rate': 0.98, 'fail_rate': 0.02, 'avg_return': 41.10320999999999}, {'noise_type': 'gaussian', 'scale': 0.08, 'safe_rate': 0.98, 'goal_rate': 0.98, 'fail_rate': 0.02, 'avg_return': 41.045599999999986}, {'noise_type': 'gaussian', 'scale': 0.14, 'safe_rate': 0.98, 'goal_rate': 0.98, 'fail_rate': 0.02, 'avg_return': 41.05370999999998}, {'noise_type': 'gaussian', 'scale': 0.2, 'safe_rate': 0.94, 'goal_rate': 0.94, 'fail_rate': 0.06, 'avg_return': 38.63181999999999}, {'noise_type': 'gaussian', 'scale': 0.26, 'safe_rate': 0.94, 'goal_rate': 0.94, 'fail_rate': 0.06, 'avg_return': 38.71919}, {'noise_type': 'gaussian', 'scale': 0.32, 'safe_rate': 0.9, 'goal_rate': 0.9, 'fail_rate': 0.1, 'avg_return': 36.27589}, {'noise_type': 'gaussian', 'scale': 0.38, 'safe_rate': 0.98, 'goal_rate': 0.98, 'fail_rate': 0.02, 'avg_return': 41.078279999999985}, {'noise_type': 'gaussian', 'scale': 0.4, 'safe_rate': 1.0, 'goal_rate': 1.0, 'fail_rate': 0.0, 'avg_return': 42.27499999999999}]
+
+Process finished with exit code 0

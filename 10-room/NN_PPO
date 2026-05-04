@@ -1,0 +1,19 @@
+[iter 0000] train_phi=0.500 train_phi_p0=0.000 train_phi_p1=1.000 train_ret=-0.371 eval_phi=0.500 eval_phi_p0=0.000 eval_phi_p1=1.000 eval_phi_ema=0.500 avg_ret=-0.390 iter_time=3.06s total_time=3.76s
+[iter 0001] train_phi=0.975 train_phi_p0=0.950 train_phi_p1=1.000 train_ret=18.615 eval_phi=0.965 eval_phi_p0=0.930 eval_phi_p1=1.000 eval_phi_ema=0.546 avg_ret=18.196 iter_time=4.28s total_time=8.04s
+[iter 0002] train_phi=0.835 train_phi_p0=1.000 train_phi_p1=0.670 train_ret=13.059 eval_phi=0.865 eval_phi_p0=1.000 eval_phi_p1=0.730 eval_phi_ema=0.578 avg_ret=14.221 iter_time=4.01s total_time=12.05s
+[iter 0003] train_phi=0.840 train_phi_p0=1.000 train_phi_p1=0.680 train_ret=13.277 eval_phi=0.845 eval_phi_p0=1.000 eval_phi_p1=0.690 eval_phi_ema=0.605 avg_ret=13.513 iter_time=3.99s total_time=16.04s
+[iter 0004] train_phi=1.000 train_phi_p0=1.000 train_phi_p1=1.000 train_ret=19.607 eval_phi=1.000 eval_phi_p0=1.000 eval_phi_p1=1.000 eval_phi_ema=0.645 avg_ret=19.594 iter_time=4.37s total_time=20.41s
+
+==== FINAL RESULT ====
+Stopped by eval_phi? True
+Outer iter: 4
+eval_phi_rate: 1.0000
+eval_phi_rate_p0: 1.0000
+eval_phi_rate_p1: 1.0000
+eval_phi_ema: 0.6445
+avg_return: 19.5936
+total_time_sec: 20.41
+
+==== ROBUSTNESS SWEEP EXAMPLE ====
+Uniform noise: [{'scale': 0.1, 'phi_rate': 0.7, 'phi_rate_p0': 1.0, 'phi_rate_p1': 0.4, 'avg_return': -1.4227440996170042}, {'scale': 0.2, 'phi_rate': 0.76, 'phi_rate_p0': 1.0, 'phi_rate_p1': 0.52, 'avg_return': 0.0021800951004029654}, {'scale': 0.3, 'phi_rate': 0.84, 'phi_rate_p0': 1.0, 'phi_rate_p1': 0.68, 'avg_return': 2.2668199254035946}, {'scale': 0.4, 'phi_rate': 0.72, 'phi_rate_p0': 1.0, 'phi_rate_p1': 0.44, 'avg_return': -0.8566754071235657}, {'scale': 0.5, 'phi_rate': 0.72, 'phi_rate_p0': 1.0, 'phi_rate_p1': 0.44, 'avg_return': -0.47831678934097277}, {'scale': 0.6, 'phi_rate': 0.74, 'phi_rate_p0': 1.0, 'phi_rate_p1': 0.48, 'avg_return': -0.02310450963973999}, {'scale': 0.7, 'phi_rate': 0.84, 'phi_rate_p0': 1.0, 'phi_rate_p1': 0.68, 'avg_return': 2.652430610466003}, {'scale': 0.8, 'phi_rate': 0.9, 'phi_rate_p0': 1.0, 'phi_rate_p1': 0.8, 'avg_return': 3.7953137898445135}, {'scale': 0.9, 'phi_rate': 0.86, 'phi_rate_p0': 1.0, 'phi_rate_p1': 0.72, 'avg_return': 2.7228386224746703}, {'scale': 1.0, 'phi_rate': 0.84, 'phi_rate_p0': 1.0, 'phi_rate_p1': 0.68, 'avg_return': 1.914060808467865}]
+Gaussian noise: [{'scale': 0.1, 'phi_rate': 0.8, 'phi_rate_p0': 1.0, 'phi_rate_p1': 0.6, 'avg_return': 1.2707843715667724}, {'scale': 0.2, 'phi_rate': 0.78, 'phi_rate_p0': 1.0, 'phi_rate_p1': 0.56, 'avg_return': 0.683796773815155}, {'scale': 0.3, 'phi_rate': 0.8, 'phi_rate_p0': 1.0, 'phi_rate_p1': 0.6, 'avg_return': 1.4067404809951782}, {'scale': 0.4, 'phi_rate': 0.76, 'phi_rate_p0': 1.0, 'phi_rate_p1': 0.52, 'avg_return': 0.3847532454490664}, {'scale': 0.5, 'phi_rate': 0.72, 'phi_rate_p0': 1.0, 'phi_rate_p1': 0.44, 'avg_return': -1.0150677859306334}, {'scale': 0.6, 'phi_rate': 0.84, 'phi_rate_p0': 1.0, 'phi_rate_p1': 0.68, 'avg_return': 2.088590972614288}, {'scale': 0.7, 'phi_rate': 0.78, 'phi_rate_p0': 1.0, 'phi_rate_p1': 0.56, 'avg_return': 0.7697518579483034}, {'scale': 0.8, 'phi_rate': 0.76, 'phi_rate_p0': 1.0, 'phi_rate_p1': 0.52, 'avg_return': 0.20236067562103258}, {'scale': 0.9, 'phi_rate': 0.78, 'phi_rate_p0': 1.0, 'phi_rate_p1': 0.56, 'avg_return': 0.57698905916214}, {'scale': 1.0, 'phi_rate': 0.74, 'phi_rate_p0': 1.0, 'phi_rate_p1': 0.48, 'avg_return': -0.19381161890029894}]

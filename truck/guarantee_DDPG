@@ -1,0 +1,54 @@
+/home/jianhaobai/miniconda3/envs/statemask/bin/python /home/jianhaobai/nips2026/truck/truck_guarantee.py
+[iter 0000] p_lb=0.000 risk=1.000 c_sum=0.0018 uA=1.000 cA=0.0007 uB=1.000 cB=0.0011 cert_safe=0.000 cert_goal=0.000 cert_fail=1.000 safe_eval=0.340 goal_eval=0.340 fail_eval=0.660 avg_ret=6.06 iter_time=87.58s total_time=87.58s status=some-infeasible
+[iter 0001] p_lb=0.000 risk=1.000 c_sum=0.0028 uA=1.000 cA=0.0005 uB=1.000 cB=0.0023 cert_safe=0.373 cert_goal=0.373 cert_fail=0.627 safe_eval=0.310 goal_eval=0.310 fail_eval=0.690 avg_ret=1.84 iter_time=88.16s total_time=175.74s status=some-infeasible
+[iter 0002] p_lb=0.899 risk=0.101 c_sum=0.0010 uA=0.050 cA=0.0005 uB=0.051 cB=0.0005 cert_safe=0.353 cert_goal=0.353 cert_fail=0.647 safe_eval=0.870 goal_eval=0.870 fail_eval=0.130 avg_ret=35.66 iter_time=68.45s total_time=244.19s status=both-feasible
+[iter 0003] p_lb=0.900 risk=0.100 c_sum=0.0010 uA=0.050 cA=0.0005 npreA=5144 npostA=0 uB=0.049 cB=0.0005 npreB=7576 npostB=0 cert_safe=0.833 cert_goal=0.833 cert_fail=0.167 safe_eval=0.815 goal_eval=0.815 fail_eval=0.185 avg_ret=32.41 iter_time=70.93s total_time=315.12s statusA=constraints-satisfied-post-empty statusB=constraints-satisfied-post-empty status=both-feasible
+[stop] iter=3 p_lb=0.900 >= p_min=0.900, epsilon=0.0999
+
+==== FINAL RESULT ====
+Stopped by p_lb? True
+Outer iter: 3
+p_lb_total: 0.9003
+risk_bound_total: 0.0997
+c_total: 0.0010
+
+---- Certificate A (pre=A, post=X) ----
+u_A: 0.0503
+c_A: 0.0005
+n_pre_A: 5144
+n_post_A: 0
+n_trans_A: 12938
+loss_nonneg_A: 0.0000e+00
+loss_pre_A: 5.4355e-04
+loss_post_A: 0.0000e+00
+loss_dyn_A: 9.8656e-06
+loss_obj_A: 5.0212e-04
+epochs_used_A: 8000
+status_A: constraints-satisfied-post-empty
+
+---- Certificate B (pre=B, post=X) ----
+u_B: 0.0494
+c_B: 0.0005
+n_pre_B: 7576
+n_post_B: 0
+n_trans_B: 12938
+loss_nonneg_B: 3.8457e-04
+loss_pre_B: 0.0000e+00
+loss_post_B: 0.0000e+00
+loss_dyn_B: 0.0000e+00
+loss_obj_B: 4.9334e-04
+epochs_used_B: 8000
+status_B: constraints-satisfied-post-empty
+
+epsilon(N,beta): 0.0999
+safe_eval: 0.8150
+goal_eval: 0.8150
+fail_eval: 0.1850
+avg_return: 32.4121
+total_time_sec: 315.12
+
+==== ROBUSTNESS SWEEP EXAMPLE ====
+Uniform noise: [{'noise_type': 'uniform', 'scale': 0.02, 'safe_rate': 0.8, 'goal_rate': 0.8, 'fail_rate': 0.2, 'avg_return': 31.854939999999992}, {'noise_type': 'uniform', 'scale': 0.08, 'safe_rate': 0.82, 'goal_rate': 0.82, 'fail_rate': 0.18, 'avg_return': 33.052989999999994}, {'noise_type': 'uniform', 'scale': 0.14, 'safe_rate': 0.8, 'goal_rate': 0.8, 'fail_rate': 0.2, 'avg_return': 31.00905}, {'noise_type': 'uniform', 'scale': 0.2, 'safe_rate': 0.82, 'goal_rate': 0.82, 'fail_rate': 0.18, 'avg_return': 33.18619999999999}, {'noise_type': 'uniform', 'scale': 0.26, 'safe_rate': 0.8, 'goal_rate': 0.8, 'fail_rate': 0.2, 'avg_return': 32.209909999999994}, {'noise_type': 'uniform', 'scale': 0.32, 'safe_rate': 0.76, 'goal_rate': 0.76, 'fail_rate': 0.24, 'avg_return': 30.42611999999999}, {'noise_type': 'uniform', 'scale': 0.38, 'safe_rate': 0.8, 'goal_rate': 0.8, 'fail_rate': 0.2, 'avg_return': 31.561579999999996}, {'noise_type': 'uniform', 'scale': 0.4, 'safe_rate': 0.76, 'goal_rate': 0.76, 'fail_rate': 0.24, 'avg_return': 29.784129999999994}]
+Gaussian noise: [{'noise_type': 'gaussian', 'scale': 0.02, 'safe_rate': 0.74, 'goal_rate': 0.74, 'fail_rate': 0.26, 'avg_return': 27.936659999999996}, {'noise_type': 'gaussian', 'scale': 0.08, 'safe_rate': 0.78, 'goal_rate': 0.78, 'fail_rate': 0.22, 'avg_return': 30.915919999999996}, {'noise_type': 'gaussian', 'scale': 0.14, 'safe_rate': 0.8, 'goal_rate': 0.8, 'fail_rate': 0.2, 'avg_return': 31.768949999999997}, {'noise_type': 'gaussian', 'scale': 0.2, 'safe_rate': 0.84, 'goal_rate': 0.84, 'fail_rate': 0.16, 'avg_return': 33.866749999999996}, {'noise_type': 'gaussian', 'scale': 0.26, 'safe_rate': 0.8, 'goal_rate': 0.8, 'fail_rate': 0.2, 'avg_return': 32.085429999999995}, {'noise_type': 'gaussian', 'scale': 0.32, 'safe_rate': 0.84, 'goal_rate': 0.84, 'fail_rate': 0.16, 'avg_return': 33.79231}, {'noise_type': 'gaussian', 'scale': 0.38, 'safe_rate': 0.86, 'goal_rate': 0.86, 'fail_rate': 0.14, 'avg_return': 35.02004999999999}, {'noise_type': 'gaussian', 'scale': 0.4, 'safe_rate': 0.86, 'goal_rate': 0.86, 'fail_rate': 0.14, 'avg_return': 35.136559999999996}]
+
+Process finished with exit code 0

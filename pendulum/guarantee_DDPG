@@ -1,0 +1,38 @@
+/home/jianhaobai/miniconda3/envs/statemask/bin/python /home/jianhaobai/nips2026/pendulum/pendulum_guarantee.py
+[iter 0000] p_lb=0.000 u=1.000 c=0.0894 n_pre=2300 n_post=100 n_trans=2400 cert_safe=0.000 cert_goal=0.000 cert_fail=1.000 safe_eval=0.000 goal_eval=0.000 fail_eval=1.000 avg_ret=-14.82 iter_time=20.33s total_time=21.86s ln=0.00e+00 lp=1.09e-02 lq=0.00e+00 ld=3.84e-02 lo=8.94e-02 max_vio=3.84e-02 ep=4000 status=epoch-limit-infeasible
+[iter 0001] p_lb=0.000 u=1.000 c=0.0919 n_pre=2130 n_post=100 n_trans=2230 cert_safe=0.000 cert_goal=0.000 cert_fail=1.000 safe_eval=0.000 goal_eval=0.000 fail_eval=1.000 avg_ret=-15.21 iter_time=25.15s total_time=47.01s ln=0.00e+00 lp=6.61e-03 lq=1.45e-03 ld=4.06e-02 lo=9.19e-02 max_vio=4.06e-02 ep=4000 status=epoch-limit-infeasible
+[iter 0002] p_lb=0.000 u=1.000 c=0.0763 n_pre=2839 n_post=100 n_trans=2939 cert_safe=0.000 cert_goal=0.000 cert_fail=1.000 safe_eval=0.000 goal_eval=0.000 fail_eval=1.000 avg_ret=-16.30 iter_time=20.49s total_time=67.50s ln=1.51e-04 lp=4.74e-03 lq=6.36e-04 ld=3.06e-02 lo=7.63e-02 max_vio=3.06e-02 ep=4000 status=epoch-limit-infeasible
+[iter 0003] p_lb=0.000 u=1.000 c=0.0787 n_pre=3633 n_post=100 n_trans=3733 cert_safe=0.000 cert_goal=0.000 cert_fail=1.000 safe_eval=0.000 goal_eval=0.000 fail_eval=1.000 avg_ret=-17.16 iter_time=26.93s total_time=94.43s ln=6.30e-04 lp=4.41e-03 lq=1.93e-03 ld=2.70e-02 lo=7.87e-02 max_vio=2.70e-02 ep=4000 status=epoch-limit-infeasible
+[iter 0004] p_lb=0.000 u=1.000 c=0.0710 n_pre=5645 n_post=100 n_trans=5745 cert_safe=0.000 cert_goal=0.000 cert_fail=1.000 safe_eval=0.000 goal_eval=0.000 fail_eval=1.000 avg_ret=-19.81 iter_time=29.53s total_time=123.96s ln=0.00e+00 lp=3.29e-03 lq=0.00e+00 ld=1.58e-02 lo=7.10e-02 max_vio=1.58e-02 ep=4000 status=epoch-limit-infeasible
+[iter 0005] p_lb=0.000 u=1.000 c=0.0697 n_pre=10237 n_post=100 n_trans=10337 cert_safe=0.000 cert_goal=0.000 cert_fail=1.000 safe_eval=1.000 goal_eval=1.000 fail_eval=0.000 avg_ret=-4.98 iter_time=32.51s total_time=156.47s ln=0.00e+00 lp=2.74e-03 lq=0.00e+00 ld=9.22e-03 lo=6.97e-02 max_vio=9.22e-03 ep=4000 status=epoch-limit-infeasible
+[iter 0006] p_lb=0.990 u=0.010 c=0.0000 n_pre=20100 n_post=0 n_trans=20100 cert_safe=1.000 cert_goal=1.000 cert_fail=0.000 safe_eval=1.000 goal_eval=1.000 fail_eval=0.000 iter_time=17.15s total_time=173.62s ln=0.00e+00 lp=0.00e+00 lq=0.00e+00 ld=0.00e+00 lo=0.00e+00 max_vio=0.00e+00 ep=0
+[stop] iter=6 p_lb=0.990 >= p_min=0.900, epsilon=0.1224
+
+==== FINAL RESULT ====
+Stopped by p_lb? True
+Outer iter: 6
+p_lb: 0.9900
+u_local: 0.0100
+c_bc: 0.0000
+n_pre: 20100
+n_post: 0
+n_trans: 20100
+loss_nonneg: 0.0000e+00
+loss_pre: 0.0000e+00
+loss_post: 0.0000e+00
+loss_dyn: 0.0000e+00
+loss_obj: 0.0000e+00
+max_violation: 0.0000e+00
+epochs_used: 0
+epsilon(N,beta): 0.1224
+safe_eval: 1.0000
+goal_eval: 1.0000
+fail_eval: 0.0000
+avg_return: -5.0375
+total_time_sec: 173.62
+
+==== ROBUSTNESS SWEEP EXAMPLE ====
+Uniform noise: [{'noise_type': 'uniform', 'scale': 0.02, 'safe_rate': 1.0, 'goal_rate': 1.0, 'fail_rate': 0.0, 'avg_return': -4.790729622355293}, {'noise_type': 'uniform', 'scale': 0.05, 'safe_rate': 1.0, 'goal_rate': 1.0, 'fail_rate': 0.0, 'avg_return': -5.307761698598547}, {'noise_type': 'uniform', 'scale': 0.08, 'safe_rate': 0.94, 'goal_rate': 0.94, 'fail_rate': 0.06, 'avg_return': -8.380196611350563}, {'noise_type': 'uniform', 'scale': 0.11, 'safe_rate': 0.54, 'goal_rate': 0.54, 'fail_rate': 0.46, 'avg_return': -16.21669311614416}, {'noise_type': 'uniform', 'scale': 0.14, 'safe_rate': 0.18, 'goal_rate': 0.18, 'fail_rate': 0.82, 'avg_return': -21.20882980546261}, {'noise_type': 'uniform', 'scale': 0.17, 'safe_rate': 0.04, 'goal_rate': 0.04, 'fail_rate': 0.96, 'avg_return': -21.441095525835273}, {'noise_type': 'uniform', 'scale': 0.2, 'safe_rate': 0.02, 'goal_rate': 0.02, 'fail_rate': 0.98, 'avg_return': -20.494902020024334}]
+Gaussian noise: [{'noise_type': 'gaussian', 'scale': 0.02, 'safe_rate': 1.0, 'goal_rate': 1.0, 'fail_rate': 0.0, 'avg_return': -5.093261830458159}, {'noise_type': 'gaussian', 'scale': 0.05, 'safe_rate': 0.92, 'goal_rate': 0.92, 'fail_rate': 0.08, 'avg_return': -9.57074518847806}, {'noise_type': 'gaussian', 'scale': 0.08, 'safe_rate': 0.22, 'goal_rate': 0.22, 'fail_rate': 0.78, 'avg_return': -20.4984885099444}, {'noise_type': 'gaussian', 'scale': 0.11, 'safe_rate': 0.04, 'goal_rate': 0.04, 'fail_rate': 0.96, 'avg_return': -21.055957848945326}, {'noise_type': 'gaussian', 'scale': 0.14, 'safe_rate': 0.0, 'goal_rate': 0.0, 'fail_rate': 1.0, 'avg_return': -19.52557660422215}, {'noise_type': 'gaussian', 'scale': 0.17, 'safe_rate': 0.0, 'goal_rate': 0.0, 'fail_rate': 1.0, 'avg_return': -18.442254369606434}, {'noise_type': 'gaussian', 'scale': 0.2, 'safe_rate': 0.0, 'goal_rate': 0.0, 'fail_rate': 1.0, 'avg_return': -18.884834500057988}]
+
+Process finished with exit code 0

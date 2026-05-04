@@ -1,0 +1,61 @@
+[iter 0000] train_phi=0.500 train_phi_p0=0.000 train_phi_p1=1.000 train_ret=-0.365 eval_phi=0.500 eval_phi_p0=0.000 eval_phi_p1=1.000 eval_phi_ema=0.500 avg_ret=-0.390 iter_time=2.19s total_time=2.39s
+[iter 0001] train_phi=0.500 train_phi_p0=0.000 train_phi_p1=1.000 train_ret=-0.372 eval_phi=0.500 eval_phi_p0=0.000 eval_phi_p1=1.000 eval_phi_ema=0.500 avg_ret=-0.438 iter_time=1.67s total_time=4.06s
+[iter 0002] train_phi=0.500 train_phi_p0=0.000 train_phi_p1=1.000 train_ret=-0.356 eval_phi=0.500 eval_phi_p0=0.000 eval_phi_p1=1.000 eval_phi_ema=0.500 avg_ret=-0.474 iter_time=1.67s total_time=5.72s
+[iter 0003] train_phi=0.500 train_phi_p0=0.000 train_phi_p1=1.000 train_ret=-0.379 eval_phi=0.500 eval_phi_p0=0.000 eval_phi_p1=1.000 eval_phi_ema=0.500 avg_ret=-0.413 iter_time=1.67s total_time=7.40s
+[iter 0004] train_phi=0.500 train_phi_p0=0.000 train_phi_p1=1.000 train_ret=-0.401 eval_phi=0.500 eval_phi_p0=0.000 eval_phi_p1=1.000 eval_phi_ema=0.500 avg_ret=-0.417 iter_time=1.71s total_time=9.11s
+[iter 0005] train_phi=0.500 train_phi_p0=0.000 train_phi_p1=1.000 train_ret=-0.368 eval_phi=0.500 eval_phi_p0=0.000 eval_phi_p1=1.000 eval_phi_ema=0.500 avg_ret=-0.453 iter_time=1.68s total_time=10.78s
+[iter 0006] train_phi=0.500 train_phi_p0=0.000 train_phi_p1=1.000 train_ret=-0.364 eval_phi=0.500 eval_phi_p0=0.000 eval_phi_p1=1.000 eval_phi_ema=0.500 avg_ret=-0.456 iter_time=1.67s total_time=12.45s
+[iter 0007] train_phi=0.500 train_phi_p0=0.000 train_phi_p1=1.000 train_ret=-0.346 eval_phi=0.500 eval_phi_p0=0.000 eval_phi_p1=1.000 eval_phi_ema=0.500 avg_ret=-0.447 iter_time=1.68s total_time=14.13s
+[iter 0008] train_phi=0.500 train_phi_p0=0.000 train_phi_p1=1.000 train_ret=-0.353 eval_phi=0.500 eval_phi_p0=0.000 eval_phi_p1=1.000 eval_phi_ema=0.500 avg_ret=-0.375 iter_time=1.67s total_time=15.80s
+[iter 0009] train_phi=0.500 train_phi_p0=0.000 train_phi_p1=1.000 train_ret=-0.342 eval_phi=0.500 eval_phi_p0=0.000 eval_phi_p1=1.000 eval_phi_ema=0.500 avg_ret=-0.385 iter_time=1.67s total_time=17.47s
+[iter 0010] train_phi=0.500 train_phi_p0=0.000 train_phi_p1=1.000 train_ret=-0.381 eval_phi=0.500 eval_phi_p0=0.000 eval_phi_p1=1.000 eval_phi_ema=0.500 avg_ret=-0.430 iter_time=1.67s total_time=19.14s
+[iter 0011] train_phi=0.500 train_phi_p0=0.000 train_phi_p1=1.000 train_ret=-0.349 eval_phi=0.505 eval_phi_p0=0.010 eval_phi_p1=1.000 eval_phi_ema=0.500 avg_ret=-0.313 iter_time=1.67s total_time=20.80s
+[iter 0012] train_phi=0.500 train_phi_p0=0.000 train_phi_p1=1.000 train_ret=-0.402 eval_phi=0.500 eval_phi_p0=0.000 eval_phi_p1=1.000 eval_phi_ema=0.500 avg_ret=-0.420 iter_time=1.66s total_time=22.46s
+[iter 0013] train_phi=0.500 train_phi_p0=0.000 train_phi_p1=1.000 train_ret=-0.357 eval_phi=0.500 eval_phi_p0=0.000 eval_phi_p1=1.000 eval_phi_ema=0.500 avg_ret=-0.410 iter_time=1.69s total_time=24.15s
+[iter 0014] train_phi=0.500 train_phi_p0=0.000 train_phi_p1=1.000 train_ret=-0.332 eval_phi=0.500 eval_phi_p0=0.000 eval_phi_p1=1.000 eval_phi_ema=0.500 avg_ret=-0.454 iter_time=1.66s total_time=25.81s
+[iter 0015] train_phi=0.500 train_phi_p0=0.000 train_phi_p1=1.000 train_ret=-0.350 eval_phi=0.500 eval_phi_p0=0.000 eval_phi_p1=1.000 eval_phi_ema=0.500 avg_ret=-0.425 iter_time=1.65s total_time=27.46s
+[iter 0016] train_phi=0.500 train_phi_p0=0.000 train_phi_p1=1.000 train_ret=-0.346 eval_phi=0.500 eval_phi_p0=0.000 eval_phi_p1=1.000 eval_phi_ema=0.500 avg_ret=-0.449 iter_time=1.66s total_time=29.11s
+[iter 0017] train_phi=0.500 train_phi_p0=0.000 train_phi_p1=1.000 train_ret=-0.363 eval_phi=0.500 eval_phi_p0=0.000 eval_phi_p1=1.000 eval_phi_ema=0.500 avg_ret=-0.455 iter_time=1.68s total_time=30.79s
+[iter 0018] train_phi=0.500 train_phi_p0=0.000 train_phi_p1=1.000 train_ret=-0.349 eval_phi=0.500 eval_phi_p0=0.000 eval_phi_p1=1.000 eval_phi_ema=0.500 avg_ret=-0.449 iter_time=1.66s total_time=32.45s
+[iter 0019] train_phi=0.500 train_phi_p0=0.000 train_phi_p1=1.000 train_ret=-0.341 eval_phi=0.500 eval_phi_p0=0.000 eval_phi_p1=1.000 eval_phi_ema=0.500 avg_ret=-0.424 iter_time=1.66s total_time=34.11s
+[iter 0020] train_phi=0.500 train_phi_p0=0.000 train_phi_p1=1.000 train_ret=-0.382 eval_phi=0.500 eval_phi_p0=0.000 eval_phi_p1=1.000 eval_phi_ema=0.500 avg_ret=-0.379 iter_time=1.65s total_time=35.75s
+[iter 0021] train_phi=0.500 train_phi_p0=0.000 train_phi_p1=1.000 train_ret=-0.346 eval_phi=0.500 eval_phi_p0=0.000 eval_phi_p1=1.000 eval_phi_ema=0.500 avg_ret=-0.499 iter_time=1.65s total_time=37.41s
+[iter 0022] train_phi=0.500 train_phi_p0=0.000 train_phi_p1=1.000 train_ret=-0.368 eval_phi=0.500 eval_phi_p0=0.000 eval_phi_p1=1.000 eval_phi_ema=0.500 avg_ret=-0.400 iter_time=1.66s total_time=39.07s
+[iter 0023] train_phi=0.500 train_phi_p0=0.000 train_phi_p1=1.000 train_ret=-0.409 eval_phi=0.500 eval_phi_p0=0.000 eval_phi_p1=1.000 eval_phi_ema=0.500 avg_ret=-0.435 iter_time=1.70s total_time=40.77s
+[iter 0024] train_phi=0.500 train_phi_p0=0.000 train_phi_p1=1.000 train_ret=-0.366 eval_phi=0.500 eval_phi_p0=0.000 eval_phi_p1=1.000 eval_phi_ema=0.500 avg_ret=-0.477 iter_time=1.67s total_time=42.44s
+[iter 0025] train_phi=0.500 train_phi_p0=0.000 train_phi_p1=1.000 train_ret=-0.354 eval_phi=0.500 eval_phi_p0=0.000 eval_phi_p1=1.000 eval_phi_ema=0.500 avg_ret=-0.412 iter_time=1.63s total_time=44.07s
+[iter 0026] train_phi=0.500 train_phi_p0=0.000 train_phi_p1=1.000 train_ret=-0.371 eval_phi=0.500 eval_phi_p0=0.000 eval_phi_p1=1.000 eval_phi_ema=0.500 avg_ret=-0.430 iter_time=1.65s total_time=45.73s
+[iter 0027] train_phi=0.500 train_phi_p0=0.000 train_phi_p1=1.000 train_ret=-0.336 eval_phi=0.500 eval_phi_p0=0.000 eval_phi_p1=1.000 eval_phi_ema=0.500 avg_ret=-0.430 iter_time=1.65s total_time=47.37s
+[iter 0028] train_phi=0.500 train_phi_p0=0.000 train_phi_p1=1.000 train_ret=-0.387 eval_phi=0.500 eval_phi_p0=0.000 eval_phi_p1=1.000 eval_phi_ema=0.500 avg_ret=-0.432 iter_time=1.64s total_time=49.02s
+[iter 0029] train_phi=0.500 train_phi_p0=0.000 train_phi_p1=1.000 train_ret=-0.385 eval_phi=0.500 eval_phi_p0=0.000 eval_phi_p1=1.000 eval_phi_ema=0.500 avg_ret=-0.412 iter_time=1.66s total_time=50.68s
+[iter 0030] train_phi=0.500 train_phi_p0=0.000 train_phi_p1=1.000 train_ret=-0.327 eval_phi=0.500 eval_phi_p0=0.000 eval_phi_p1=1.000 eval_phi_ema=0.500 avg_ret=-0.358 iter_time=1.64s total_time=52.32s
+[iter 0031] train_phi=0.500 train_phi_p0=0.000 train_phi_p1=1.000 train_ret=-0.396 eval_phi=0.500 eval_phi_p0=0.000 eval_phi_p1=1.000 eval_phi_ema=0.500 avg_ret=-0.402 iter_time=1.66s total_time=53.98s
+[iter 0032] train_phi=0.500 train_phi_p0=0.000 train_phi_p1=1.000 train_ret=-0.347 eval_phi=0.500 eval_phi_p0=0.000 eval_phi_p1=1.000 eval_phi_ema=0.500 avg_ret=-0.421 iter_time=1.65s total_time=55.63s
+[iter 0033] train_phi=0.500 train_phi_p0=0.000 train_phi_p1=1.000 train_ret=-0.388 eval_phi=0.500 eval_phi_p0=0.000 eval_phi_p1=1.000 eval_phi_ema=0.500 avg_ret=-0.452 iter_time=1.66s total_time=57.29s
+[iter 0034] train_phi=0.500 train_phi_p0=0.000 train_phi_p1=1.000 train_ret=-0.348 eval_phi=0.500 eval_phi_p0=0.000 eval_phi_p1=1.000 eval_phi_ema=0.500 avg_ret=-0.424 iter_time=1.67s total_time=58.96s
+[iter 0035] train_phi=0.500 train_phi_p0=0.000 train_phi_p1=1.000 train_ret=-0.331 eval_phi=0.500 eval_phi_p0=0.000 eval_phi_p1=1.000 eval_phi_ema=0.500 avg_ret=-0.422 iter_time=1.66s total_time=60.62s
+[iter 0036] train_phi=0.500 train_phi_p0=0.000 train_phi_p1=1.000 train_ret=-0.341 eval_phi=0.500 eval_phi_p0=0.000 eval_phi_p1=1.000 eval_phi_ema=0.500 avg_ret=-0.391 iter_time=1.66s total_time=62.28s
+[iter 0037] train_phi=0.500 train_phi_p0=0.000 train_phi_p1=1.000 train_ret=-0.357 eval_phi=0.500 eval_phi_p0=0.000 eval_phi_p1=1.000 eval_phi_ema=0.500 avg_ret=-0.379 iter_time=1.68s total_time=63.96s
+[iter 0038] train_phi=0.500 train_phi_p0=0.000 train_phi_p1=1.000 train_ret=-0.371 eval_phi=0.500 eval_phi_p0=0.000 eval_phi_p1=1.000 eval_phi_ema=0.500 avg_ret=-0.382 iter_time=1.65s total_time=65.61s
+[iter 0039] train_phi=0.500 train_phi_p0=0.000 train_phi_p1=1.000 train_ret=-0.349 eval_phi=0.500 eval_phi_p0=0.000 eval_phi_p1=1.000 eval_phi_ema=0.500 avg_ret=-0.458 iter_time=1.66s total_time=67.27s
+[iter 0040] train_phi=0.500 train_phi_p0=0.000 train_phi_p1=1.000 train_ret=-0.374 eval_phi=0.500 eval_phi_p0=0.000 eval_phi_p1=1.000 eval_phi_ema=0.500 avg_ret=-0.473 iter_time=1.68s total_time=68.95s
+[iter 0041] train_phi=0.500 train_phi_p0=0.000 train_phi_p1=1.000 train_ret=-0.378 eval_phi=0.500 eval_phi_p0=0.000 eval_phi_p1=1.000 eval_phi_ema=0.500 avg_ret=-0.398 iter_time=1.67s total_time=70.62s
+[iter 0042] train_phi=0.500 train_phi_p0=0.000 train_phi_p1=1.000 train_ret=-0.365 eval_phi=0.500 eval_phi_p0=0.000 eval_phi_p1=1.000 eval_phi_ema=0.500 avg_ret=-0.455 iter_time=1.70s total_time=72.31s
+[iter 0043] train_phi=0.500 train_phi_p0=0.000 train_phi_p1=1.000 train_ret=-0.366 eval_phi=0.500 eval_phi_p0=0.000 eval_phi_p1=1.000 eval_phi_ema=0.500 avg_ret=-0.391 iter_time=1.67s total_time=73.99s
+[iter 0044] train_phi=1.000 train_phi_p0=1.000 train_phi_p1=1.000 train_ret=4.826 eval_phi=1.000 eval_phi_p0=1.000 eval_phi_p1=1.000 eval_phi_ema=0.550 avg_ret=4.893 iter_time=2.30s total_time=76.28s
+
+==== FINAL RESULT ====
+Stopped by eval_phi? True
+Outer iter: 44
+eval_phi_rate: 1.0000
+eval_phi_rate_p0: 1.0000
+eval_phi_rate_p1: 1.0000
+eval_phi_ema: 0.5500
+avg_return: 4.8927
+total_time_sec: 76.28
+
+==== CONTROLLER UNIFORM INPUT NOISE SWEEP ====
+Controller uniform noise: [{'noise_type': 'uniform', 'noise_scale': 0.1, 'phi_rate': 0.71, 'phi_rate_p0': 1.0, 'phi_rate_p1': 0.42, 'avg_return': -2.1476343277454375}, {'noise_type': 'uniform', 'noise_scale': 0.2, 'phi_rate': 0.775, 'phi_rate_p0': 1.0, 'phi_rate_p1': 0.55, 'avg_return': -0.5719157678604125}, {'noise_type': 'uniform', 'noise_scale': 0.3, 'phi_rate': 0.705, 'phi_rate_p0': 1.0, 'phi_rate_p1': 0.41, 'avg_return': -2.3198922734260568}, {'noise_type': 'uniform', 'noise_scale': 0.4, 'phi_rate': 0.77, 'phi_rate_p0': 1.0, 'phi_rate_p1': 0.54, 'avg_return': -0.6720218999147426}, {'noise_type': 'uniform', 'noise_scale': 0.5, 'phi_rate': 0.77, 'phi_rate_p0': 1.0, 'phi_rate_p1': 0.54, 'avg_return': -0.6125644286632541}, {'noise_type': 'uniform', 'noise_scale': 0.6, 'phi_rate': 0.785, 'phi_rate_p0': 1.0, 'phi_rate_p1': 0.57, 'avg_return': -0.4662669038772577}, {'noise_type': 'uniform', 'noise_scale': 0.7, 'phi_rate': 0.7, 'phi_rate_p0': 1.0, 'phi_rate_p1': 0.4, 'avg_return': -2.5090925361394882}, {'noise_type': 'uniform', 'noise_scale': 0.8, 'phi_rate': 0.725, 'phi_rate_p0': 1.0, 'phi_rate_p1': 0.45, 'avg_return': -1.7446902618885043}, {'noise_type': 'uniform', 'noise_scale': 0.9, 'phi_rate': 0.76, 'phi_rate_p0': 0.99, 'phi_rate_p1': 0.53, 'avg_return': -0.9853953330278398}, {'noise_type': 'uniform', 'noise_scale': 1.0, 'phi_rate': 0.765, 'phi_rate_p0': 1.0, 'phi_rate_p1': 0.53, 'avg_return': -0.880220134592056}]
+
+==== CONTROLLER GAUSSIAN INPUT NOISE SWEEP ====
+Controller gaussian noise: [{'noise_type': 'gaussian', 'noise_scale': 0.1, 'phi_rate': 0.705, 'phi_rate_p0': 1.0, 'phi_rate_p1': 0.41, 'avg_return': -2.2794460309028626}, {'noise_type': 'gaussian', 'noise_scale': 0.2, 'phi_rate': 0.765, 'phi_rate_p0': 1.0, 'phi_rate_p1': 0.53, 'avg_return': -0.7894456078529356}, {'noise_type': 'gaussian', 'noise_scale': 0.3, 'phi_rate': 0.715, 'phi_rate_p0': 1.0, 'phi_rate_p1': 0.43, 'avg_return': -2.0918243300437935}, {'noise_type': 'gaussian', 'noise_scale': 0.4, 'phi_rate': 0.76, 'phi_rate_p0': 1.0, 'phi_rate_p1': 0.52, 'avg_return': -0.9490746185064313}, {'noise_type': 'gaussian', 'noise_scale': 0.5, 'phi_rate': 0.755, 'phi_rate_p0': 1.0, 'phi_rate_p1': 0.51, 'avg_return': -1.0791860078096391}, {'noise_type': 'gaussian', 'noise_scale': 0.6, 'phi_rate': 0.785, 'phi_rate_p0': 1.0, 'phi_rate_p1': 0.57, 'avg_return': -0.40531265859603877}, {'noise_type': 'gaussian', 'noise_scale': 0.7, 'phi_rate': 0.705, 'phi_rate_p0': 1.0, 'phi_rate_p1': 0.41, 'avg_return': -2.362019967556}, {'noise_type': 'gaussian', 'noise_scale': 0.8, 'phi_rate': 0.735, 'phi_rate_p0': 1.0, 'phi_rate_p1': 0.47, 'avg_return': -1.5234111653327937}, {'noise_type': 'gaussian', 'noise_scale': 0.9, 'phi_rate': 0.77, 'phi_rate_p0': 1.0, 'phi_rate_p1': 0.54, 'avg_return': -0.7400619260787965}, {'noise_type': 'gaussian', 'noise_scale': 1.0, 'phi_rate': 0.74, 'phi_rate_p0': 1.0, 'phi_rate_p1': 0.48, 'avg_return': -1.5147353705644604}]

@@ -1,0 +1,51 @@
+[iter 0000] p_lb=0.000 risk=1.000 c_sum=0.0014 uA=1.000 cA=0.0007 uB=1.000 cB=0.0007 cert_safe=0.000 cert_goal=0.000 cert_fail=1.000 safe_eval=0.550 goal_eval=0.550 fail_eval=0.450 avg_ret=20.45 iter_time=81.56s total_time=81.56s status=some-infeasible
+[iter 0001] p_lb=0.000 risk=1.000 c_sum=0.0221 uA=1.000 cA=0.0005 uB=1.000 cB=0.0216 cert_safe=0.640 cert_goal=0.640 cert_fail=0.360 safe_eval=0.990 goal_eval=0.990 fail_eval=0.010 avg_ret=41.67 iter_time=83.19s total_time=164.74s status=some-infeasible
+[iter 0002] p_lb=0.899 risk=0.101 c_sum=0.0010 uA=0.050 cA=0.0005 uB=0.050 cB=0.0005 cert_safe=0.980 cert_goal=0.980 cert_fail=0.020 safe_eval=0.950 goal_eval=0.950 fail_eval=0.050 avg_ret=39.33 iter_time=67.65s total_time=232.39s status=both-feasible
+[iter 0003] p_lb=0.901 risk=0.099 c_sum=0.0010 uA=0.050 cA=0.0005 npreA=2233 npostA=0 uB=0.049 cB=0.0005 npreB=2582 npostB=0 cert_safe=0.960 cert_goal=0.960 cert_fail=0.040 safe_eval=0.905 goal_eval=0.905 fail_eval=0.095 avg_ret=36.67 iter_time=70.41s total_time=302.80s statusA=constraints-satisfied-post-empty statusB=constraints-satisfied-post-empty status=both-feasible
+[stop] iter=3 p_lb=0.901 >= p_min=0.900, epsilon=0.1731
+
+==== FINAL RESULT ====
+Stopped by p_lb? True
+Outer iter: 3
+p_lb_total: 0.9008
+risk_bound_total: 0.0992
+c_total: 0.0010
+
+---- Certificate A (pre=A, post=X) ----
+u_A: 0.0498
+c_A: 0.0005
+n_pre_A: 2233
+n_post_A: 0
+n_trans_A: 4825
+loss_nonneg_A: 4.4250e-04
+loss_pre_A: 0.0000e+00
+loss_post_A: 0.0000e+00
+loss_dyn_A: 0.0000e+00
+loss_obj_A: 4.9720e-04
+epochs_used_A: 8000
+status_A: constraints-satisfied-post-empty
+
+---- Certificate B (pre=B, post=X) ----
+u_B: 0.0494
+c_B: 0.0005
+n_pre_B: 2582
+n_post_B: 0
+n_trans_B: 4825
+loss_nonneg_B: 2.4075e-04
+loss_pre_B: 0.0000e+00
+loss_post_B: 0.0000e+00
+loss_dyn_B: 0.0000e+00
+loss_obj_B: 4.9319e-04
+epochs_used_B: 8000
+status_B: constraints-satisfied-post-empty
+
+epsilon(N,beta): 0.1731
+safe_eval: 0.9050
+goal_eval: 0.9050
+fail_eval: 0.0950
+avg_return: 36.6700
+total_time_sec: 302.80
+
+==== ROBUSTNESS SWEEP EXAMPLE ====
+Uniform noise: [{'noise_type': 'uniform', 'scale': 0.02, 'safe_rate': 0.9, 'goal_rate': 0.9, 'fail_rate': 0.1, 'avg_return': 36.36401999999999}, {'noise_type': 'uniform', 'scale': 0.08, 'safe_rate': 0.86, 'goal_rate': 0.86, 'fail_rate': 0.14, 'avg_return': 33.98348999999999}, {'noise_type': 'uniform', 'scale': 0.14, 'safe_rate': 0.92, 'goal_rate': 0.92, 'fail_rate': 0.08, 'avg_return': 37.497389999999996}, {'noise_type': 'uniform', 'scale': 0.2, 'safe_rate': 0.94, 'goal_rate': 0.94, 'fail_rate': 0.06, 'avg_return': 38.68129}, {'noise_type': 'uniform', 'scale': 0.26, 'safe_rate': 0.96, 'goal_rate': 0.96, 'fail_rate': 0.04, 'avg_return': 39.881809999999994}, {'noise_type': 'uniform', 'scale': 0.32, 'safe_rate': 0.9, 'goal_rate': 0.9, 'fail_rate': 0.1, 'avg_return': 36.42213999999999}, {'noise_type': 'uniform', 'scale': 0.38, 'safe_rate': 0.98, 'goal_rate': 0.98, 'fail_rate': 0.02, 'avg_return': 41.053709999999995}, {'noise_type': 'uniform', 'scale': 0.4, 'safe_rate': 0.92, 'goal_rate': 0.92, 'fail_rate': 0.08, 'avg_return': 37.501909999999995}]
+Gaussian noise: [{'noise_type': 'gaussian', 'scale': 0.02, 'safe_rate': 0.92, 'goal_rate': 0.92, 'fail_rate': 0.08, 'avg_return': 37.49678999999999}, {'noise_type': 'gaussian', 'scale': 0.08, 'safe_rate': 0.96, 'goal_rate': 0.96, 'fail_rate': 0.04, 'avg_return': 39.88204999999999}, {'noise_type': 'gaussian', 'scale': 0.14, 'safe_rate': 0.96, 'goal_rate': 0.96, 'fail_rate': 0.04, 'avg_return': 39.91615999999999}, {'noise_type': 'gaussian', 'scale': 0.2, 'safe_rate': 0.94, 'goal_rate': 0.94, 'fail_rate': 0.06, 'avg_return': 38.70571999999999}, {'noise_type': 'gaussian', 'scale': 0.26, 'safe_rate': 0.86, 'goal_rate': 0.86, 'fail_rate': 0.14, 'avg_return': 33.908199999999994}, {'noise_type': 'gaussian', 'scale': 0.32, 'safe_rate': 0.98, 'goal_rate': 0.98, 'fail_rate': 0.02, 'avg_return': 41.13700999999999}, {'noise_type': 'gaussian', 'scale': 0.38, 'safe_rate': 0.92, 'goal_rate': 0.92, 'fail_rate': 0.08, 'avg_return': 37.617369999999994}, {'noise_type': 'gaussian', 'scale': 0.4, 'safe_rate': 0.9, 'goal_rate': 0.9, 'fail_rate': 0.1, 'avg_return': 36.24283}]
