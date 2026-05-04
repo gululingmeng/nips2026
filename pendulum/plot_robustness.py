@@ -107,8 +107,8 @@ def plot_mean_sem(x, y, sem, marker, label):
     return line
 
 
-file_ddpg = SCRIPT_DIR / "NN_DDPG"
-file_guided = SCRIPT_DIR / "guided_DDPG"
+file_ddpg = SCRIPT_DIR / "DDPG"
+file_guided = SCRIPT_DIR / "DDPG-guided"
 
 ddpg_data = extract_robustness_data(file_ddpg)
 guided_data = extract_robustness_data(file_guided)

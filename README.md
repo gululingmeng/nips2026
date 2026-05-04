@@ -19,16 +19,68 @@ Learning neural control policies for stochastic neural network-controlled system
 `-- requirement.txt
 ```
 
-Each benchmark directory contains self-contained Python scripts for baseline and certificate-guided training. The extensionless files such as `NN_DDPG`, `guided_DDPG`, `guarantee_DDPG`, `pac-guided`, and `pac-guarantee` are saved console logs used by the plotting scripts.
+Each benchmark directory contains self-contained Python scripts for baseline and certificate-guided training. The extensionless files such as `DDPG`, `DDPG-guided`, `DDPG-guarantee`, `TD3`, `TD3-guided`, `SAC`, `SAC-guided`, `PPO`, and `PPO-guided` are saved console logs used by the plotting scripts.
 
 ## Benchmarks and Scripts
 
 | Directory | Main contents |
 | --- | --- |
-| `cartpole/` | CartPole DDPG, TD3, SAC, PPO, PAC-guided variants, guarantee variant, robustness/performance plots |
-| `pendulum/` | Pendulum DDPG-style NN, TD3, SAC, PPO, PAC-guided variants, guarantee variant, robustness/performance plots |
-| `truck/` | Truck DDPG-style NN, TD3, SAC, PPO, PAC-guided variants, guarantee variant, robustness plot |
-| `10-room/` | Ten-room DDPG-style NN, TD3, SAC, PPO, PAC-guided/PAC-guarantee variants |
+| `cartpole/` | CartPole DDPG, TD3, SAC, PPO, certificate-guided variants, DDPG guarantee variant, performance and robustness plots |
+| `pendulum/` | Pendulum DDPG, TD3, SAC, PPO, certificate-guided variants, DDPG guarantee variant, performance and robustness plots |
+| `truck/` | Truck DDPG, TD3, SAC, PPO, certificate-guided variants, and DDPG guarantee variant |
+| `10-room/` | Ten-room DDPG, TD3, SAC, PPO, certificate-guided variants, and DDPG guarantee variant |
+
+Current script naming follows this pattern:
+
+```text
+cartpole/cartpole_DDPG.py
+cartpole/cartpole_DDPG_guarantee.py
+cartpole/cartpole_DDPG_guided.py
+cartpole/cartpole_DDPG_guided_100.py
+cartpole/cartpole_DDPG_guided_150.py
+cartpole/cartpole_TD3.py
+cartpole/cartpole_TD3_guided.py
+cartpole/cartpole_SAC.py
+cartpole/cartpole_SAC_guided.py
+cartpole/cartpole_ppo.py
+cartpole/cartpole_ppo_guided.py
+
+pendulum/pendulum_DDPG.py
+pendulum/pendulum_DDPG_guarantee.py
+pendulum/pendulum_DDPG_guided.py
+pendulum/pendulum_DDPG_guided_50.py
+pendulum/pendulum_DDPG_guided_150.py
+pendulum/pendulum_TD3.py
+pendulum/pendulum_TD3_guided.py
+pendulum/pendulum_SAC.py
+pendulum/pendulum_SAC_guided.py
+pendulum/pendulum_ppo.py
+pendulum/pendulum_ppo_guided.py
+
+truck/truck_DDPG.py
+truck/truck_DDPG_guarantee.py
+truck/truck_DDPG_guided.py
+truck/truck_DDPG_guided_50.py
+truck/truck_DDPG_guided_100.py
+truck/truck_TD3.py
+truck/truck_TD3_guided.py
+truck/truck_SAC.py
+truck/truck_SAC_guided.py
+truck/truck_ppo.py
+truck/truck_ppo_guided.py
+
+10-room/10room_DDPG.py
+10-room/10room_DDPG_guarantee.py
+10-room/10room_DDPG_guided.py
+10-room/10room_DDPG_guided_50.py
+10-room/10room_DDPG_guided_150.py
+10-room/10room_TD3.py
+10-room/10room_TD3_guided.py
+10-room/10room_SAC.py
+10-room/10room_SAC_guided.py
+10-room/10room_ppo.py
+10-room/10room_ppo_guided.py
+```
 
 Most scripts have a `main()` block with experiment hyperparameters set directly in the file. They print training progress, a `FINAL RESULT` summary, and a robustness sweep under uniform and Gaussian disturbances.
 
@@ -51,10 +103,24 @@ Run scripts from the repository root or from the corresponding benchmark directo
 ```bash
 conda activate Certificate-Guided
 
-python cartpole/cartpole_NN_guided.py
-python pendulum/pendulum_guided.py
-python truck/truck_guided.py
-python 10-room/10room_pac_guided.py
+python cartpole/cartpole_DDPG_guided.py
+python pendulum/pendulum_DDPG_guided.py
+python truck/truck_DDPG_guided.py
+python 10-room/10room_DDPG_guided.py
+```
+
+Common baseline and guided variants can be run as follows:
+
+```bash
+python cartpole/cartpole_DDPG.py
+python cartpole/cartpole_DDPG_guided.py
+python cartpole/cartpole_DDPG_guarantee.py
+python cartpole/cartpole_TD3.py
+python cartpole/cartpole_TD3_guided.py
+python cartpole/cartpole_SAC.py
+python cartpole/cartpole_SAC_guided.py
+python cartpole/cartpole_ppo.py
+python cartpole/cartpole_ppo_guided.py
 ```
 
 The main experiment settings, including seeds, horizons, PAC sample sizes, disturbance scales, certificate-training epochs, and stopping thresholds, are configured inside each script's `main()` function.
@@ -71,8 +137,8 @@ A typical run prints:
 To save a run log for plotting, redirect stdout to one of the log files expected by the plotting scripts:
 
 ```bash
-python cartpole/cartpole_NN.py > cartpole/NN_DDPG
-python cartpole/cartpole_NN_guided.py > cartpole/guided_DDPG
+python cartpole/cartpole_DDPG.py > cartpole/DDPG
+python cartpole/cartpole_DDPG_guided.py > cartpole/DDPG-guided
 ```
 
 ## Plotting
@@ -89,17 +155,10 @@ python pendulum/plot_robustness.py
 
 These scripts read the saved log files in the same directory and write figures such as `performance.png`, `uniform.png`, and `gauss.png`.
 
-The Truck plotting script currently has hard-coded log names:
-
-```bash
-python truck/plot_robustness.py
-```
-
-If your logs use names such as `truck/NN_DDPG` and `truck/guided_DDPG`, edit `file_ddpg` and `file_guided` in `truck/plot_robustness.py` before running it.
+The current `truck/` directory contains experiment scripts and log files, but no `truck/plot_robustness.py` plotting script. To plot Truck robustness results, add or restore a plotting script that reads `truck/DDPG` and `truck/DDPG-guided`, following the CartPole/Pendulum plotting format.
 
 ## Reproducibility Notes
 
 - The scripts set fixed random seeds in `main()`, but GPU kernels and some environment behavior may still introduce small numerical variation.
 - Long-running scripts may take substantial time because policy learning and neural certificate training are executed in the same loop.
 - PAC-guided variants are designed as training--verification loops: the policy learner collects data, the certificate module estimates a lower bound on satisfaction probability, and training can stop once the configured lower-bound target is met.
-

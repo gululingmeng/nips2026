@@ -87,8 +87,8 @@ def plot_mean_sem(x, y, sem, label, color=None):
     return line
 
 
-file1 = SCRIPT_DIR / "NN_DDPG"
-file2 = SCRIPT_DIR / "guided_DDPG"
+file1 = SCRIPT_DIR / "DDPG"
+file2 = SCRIPT_DIR / "DDPG-guided"
 
 iters1, avg_rets1, sem_rets1 = extract_iter_avg_ret_with_final(file1)
 iters2, avg_rets2, sem_rets2 = extract_iter_avg_ret_with_final(file2)
